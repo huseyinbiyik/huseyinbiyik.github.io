@@ -2,16 +2,13 @@ body {
   font-family: Roboto;
   margin: 0;
   padding: 0;
-  
+
 }
 
-header{
+header {
   width: 375px;
   background-color: #191765;
   text-align: center;
-  height: 1000px;
-
-
 }
 
 .menu-container {
@@ -62,7 +59,7 @@ nav {
   display: block;
 }
 
-.tagline-container{
+.tagline-container {
   margin-left: 24px;
   margin-right: 24px;
   height: 154px;
@@ -70,12 +67,12 @@ nav {
 
 }
 
-.primary-text-container{
+.primary-text-container {
   height: 55px;
   width: 327px;
 }
 
-.supporting-text-container{
+.supporting-text-container {
   height: 87px;
   width: 327px;
   margin-top: 12px;
@@ -84,7 +81,7 @@ nav {
   justify-content: center;
 }
 
-.tagline-container h1{
+.tagline-container h1 {
   font-size: 48px;
   font-weight: 700;
   line-height: 72px;
@@ -92,7 +89,7 @@ nav {
   margin: inherit;
 }
 
-.tagline-container h2{
+.tagline-container h2 {
   font-size: 32px;
   font-weight: 500;
   line-height: 44px;
@@ -100,16 +97,75 @@ nav {
   margin: inherit;
 }
 
-.description-text{
+.description-text {
   margin-top: 40px;
   margin-right: 24px;
   margin-left: 24px;
   text-align: center;
 }
 
-.description-text p{
+.description-text p {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
   color: #C8C8D4;
+}
+
+.main-separator {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 33px;
+  margin-bottom: 0;
+  width: 327px;
+  height: 1px;
+  background-color: #646369;
+  border-width: 0;
+}
+
+.personel-feature-container {
+  margin-left: 36px;
+  margin-right: 36px;
+  margin-top: 37.33px;
+  width: 303px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 63.58px;
+}
+
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.feature-container h4 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #9490ff;
+  padding-left: 0;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+.feature-container ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.feature-container li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.feature-container li:last-child{
+  margin-bottom: 0;
+}
+
+.feature-container p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #f5f5ff;
+  margin-top: 0;
+  margin-bottom: 0;
 }
