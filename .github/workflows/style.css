@@ -1,0 +1,62 @@
+body {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+main {
+  width: 375px;
+  background-color: #191765;
+
+
+}
+
+header {
+  height: 48px;
+  background-color: #191765;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  height: 36px;
+  display: flex;
+  margin-left: 12px;
+  margin-top: 6px;
+  box-sizing: border-box;
+  padding: 10px 12px;
+}
+
+.logo-container p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+nav {
+  width: 50px;
+  height: 50px;
+  justify-content: space-around;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 32px;
+}
+
+.hamburger-menu {
+  width: 35.33px;
+  height: 22.83px;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hamburger-menu>span {
+  border-bottom: 2px solid #ffffff;
+  width: 100%;
+  display: block;
+}
