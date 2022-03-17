@@ -2,13 +2,19 @@ body {
   font-family: Roboto;
   margin: 0;
   padding: 0;
+  background-color: #191765;
 
 }
 
-header {
+
+header,
+main {
   width: 375px;
-  background-color: #191765;
   text-align: center;
+}
+
+main{
+
 }
 
 .menu-container {
@@ -158,7 +164,7 @@ nav {
   margin-bottom: 20px;
 }
 
-.feature-container li:last-child{
+.feature-container li:last-child {
   margin-bottom: 0;
 }
 
@@ -168,4 +174,62 @@ nav {
   color: #f5f5ff;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.feature-icon {
+  margin-top: 41px;
+  margin-bottom: 58px;
+}
+
+.social-media-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 104px;
+
+
+}
+
+.social-media {
+  width: 200px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.social-media a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.social-media img {
+  height: 20px;
+}
+
+.work-arrow-container {
+  margin-top: 34px;
+
+}
+
+.work-arrow-container a {
+  width: 77px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work-arrow-container img {
+  height: 21.3px;
+  width: 18px;
+}
+
+.work-arrow-container p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #a2a3ae;
 }
