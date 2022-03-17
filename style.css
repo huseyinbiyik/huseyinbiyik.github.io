@@ -1,19 +1,17 @@
 body {
-  font-family: Roboto;
+  font-family: Roboto, "Lucida Grande", Tahoma, Sans-Serif;
   margin: 0;
   padding: 0;
   background-color: #191765;
-
 }
 
 
-header,
-main {
+header, main {
   width: 375px;
   text-align: center;
 }
 
-main{
+main {
   background-image: url(assets/background-circles.svg);
   background-repeat: no-repeat;
 }
@@ -34,7 +32,7 @@ main{
 }
 
 .logo-container p {
-  color: #ffffff;
+  color: #fff;
   font-size: 18px;
   line-height: 16px;
   font-weight: 500;
@@ -46,7 +44,6 @@ nav {
   height: 50px;
   justify-content: space-around;
   display: flex;
-  justify-content: center;
   align-items: center;
   margin-right: 32px;
 }
@@ -61,7 +58,7 @@ nav {
 }
 
 .hamburger-menu>span {
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #fff;
   width: 100%;
   display: block;
 }
@@ -71,7 +68,6 @@ nav {
   margin-right: 24px;
   height: 154px;
   margin-top: 47px;
-
 }
 
 .primary-text-container {
@@ -115,7 +111,7 @@ nav {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  color: #C8C8D4;
+  color: #c8c8d4;
 }
 
 .main-separator {
