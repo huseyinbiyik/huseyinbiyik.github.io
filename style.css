@@ -14,7 +14,8 @@ main {
 }
 
 main{
-
+  background-image: url(assets/background-circles.svg);
+  background-repeat: no-repeat;
 }
 
 .menu-container {
