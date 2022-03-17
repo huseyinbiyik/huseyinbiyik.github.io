@@ -57,7 +57,7 @@ nav {
   align-items: center;
 }
 
-.hamburger-menu>span {
+.hamburger-menu > span {
   border-bottom: 2px solid #fff;
   width: 100%;
   display: block;
