@@ -1,12 +1,12 @@
 body {
-  font-family: Roboto, "Lucida Grande", Tahoma, Sans-Serif;
+  font-family: Roboto, "Lucida Grande", Tahoma, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #191765;
 }
 
-
-header, main {
+header,
+main {
   width: 375px;
   text-align: center;
 }
@@ -57,7 +57,7 @@ nav {
   align-items: center;
 }
 
-.hamburger-menu>span {
+.hamburger-menu > span {
   border-bottom: 2px solid #fff;
   width: 100%;
   display: block;
