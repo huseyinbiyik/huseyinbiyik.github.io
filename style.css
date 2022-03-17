@@ -184,8 +184,6 @@ nav {
   align-items: center;
   flex-direction: column;
   height: 104px;
-
-
 }
 
 .social-media {
@@ -194,7 +192,6 @@ nav {
   margin: 0 auto;
   justify-content: space-around;
   align-items: center;
-
 }
 
 .social-media a {
@@ -208,7 +205,6 @@ nav {
 
 .work-arrow-container {
   margin-top: 34px;
-
 }
 
 .work-arrow-container a {
