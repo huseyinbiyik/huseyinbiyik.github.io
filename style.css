@@ -57,7 +57,7 @@ nav {
   align-items: center;
 }
 
-.hamburger-menu > span {
+.hamburger-menu>span {
   border-bottom: 2px solid #fff;
   width: 100%;
   display: block;
@@ -89,15 +89,17 @@ nav {
   font-weight: 700;
   line-height: 72px;
   color: #7d73fc;
-  margin: inherit;
+  margin: 0;
 }
 
 .tagline-container h2 {
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 32px;
   font-weight: 500;
   line-height: 44px;
   color: #edecff;
-  margin: inherit;
+  vertical-align: middle;
 }
 
 .description-text {
@@ -154,6 +156,7 @@ nav {
 .feature-container ul {
   padding-left: 0;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .feature-container li {
