@@ -7,7 +7,6 @@ body {
 
 header,
 main {
-  width: 375px;
   text-align: center;
 }
 
@@ -57,7 +56,7 @@ nav {
   align-items: center;
 }
 
-.hamburger-menu > span {
+.hamburger-menu>span {
   border-bottom: 2px solid #fff;
   width: 100%;
   display: block;
@@ -189,7 +188,7 @@ nav {
   height: 104px;
 }
 
-.social-media ul {
+.social-media {
   list-style-type: none;
   padding: 0;
   width: 200px;
