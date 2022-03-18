@@ -1,9 +1,13 @@
 :root {
+  --primary1: #5E42D7;
   --primary2: #7d73fc;
   --primary3: #9490ff;
   --primary4: #edecff;
   --neutral: #fff;
+  --neutral-2: #2a2b33;
+  --neutral-7: #c8c8d4;
   --neutral-8: #dcdce8;
+  --neutral-9: #eaeaf6;
 }
 
 body {
@@ -350,4 +354,25 @@ nav {
   border: none;
   color: var(--primary4);
   background-color: var(--primary2);
+}
+
+.portfolio-description-section button:enabled {
+  color: var(--primary4);
+  background-color: var(--primary2);
+}
+
+.portfolio-description-section button:hover {
+  color: var(--neutral);
+  background-color: var(--primary2);
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.portfolio-description-section button:active {
+  background-color: var(--primary1);
+  color: --neutral-9;
+}
+
+.portfolio-description-section button:disabled {
+  background-color: var(--neutral-2);
+  color: var(--neutral-7);
 }
