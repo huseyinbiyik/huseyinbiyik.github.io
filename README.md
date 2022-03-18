@@ -15,6 +15,35 @@
 [Live Demo Link](https://huseyinbiyik.github.io/personal-portfolio/)
 
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+Web Browser (Chrome,Safari,Mozilla,Edge)
+
+### Setup
+
+Download the file to your computer.
+
+### Install
+
+No need to install. Open the index.html file with a browser.
+
+### Usage
+
+You can navigate through the page and see my personal portfolio.
+
+### Run tests
+
+No test required.
+
+### Deployment
+
+You can check the Github Pages link.
+
+
 
 ## Authors
 
