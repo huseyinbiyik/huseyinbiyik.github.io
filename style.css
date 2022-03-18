@@ -57,7 +57,7 @@ nav {
   align-items: center;
 }
 
-.hamburger-menu>span {
+.hamburger-menu > span {
   border-bottom: 2px solid #fff;
   width: 100%;
   display: block;
@@ -189,10 +189,8 @@ nav {
   height: 104px;
 }
 
-
 .social-media ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   width: 200px;
   display: flex;
