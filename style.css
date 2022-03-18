@@ -1,5 +1,5 @@
 :root {
-  --primary1: #5E42D7;
+  --primary1: #5e42d7;
   --primary2: #7d73fc;
   --primary3: #9490ff;
   --primary4: #edecff;
@@ -322,16 +322,16 @@ nav {
   padding: 0;
 }
 
-.portfolio-description-section ul li {
+.portfolio-description-section ul > li {
   list-style-type: none;
   border-right: 1px solid #555;
 }
 
-.portfolio-description-section ul li:last-child {
+.portfolio-description-section ul > li:last-child {
   border-right: none;
 }
 
-.portfolio-description-section li p {
+.portfolio-description-section li > p {
   color: var(--neutral);
   padding-right: 20px;
   font-size: 15px;
