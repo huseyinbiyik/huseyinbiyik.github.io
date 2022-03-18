@@ -170,12 +170,12 @@ nav {
   margin-bottom: 0;
 }
 
-.feature-container li {
+.feature-container ul li {
   list-style: none;
   margin-bottom: 20px;
 }
 
-.feature-container li:last-child {
+.feature-container ul li:last-child {
   margin-bottom: 0;
 }
 
