@@ -1,5 +1,9 @@
 :root {
+  --primary2: #7d73fc;
   --primary3: #9490ff;
+  --primary4: #edecff;
+  --neutral: #fff;
+  --neutral-8: #dcdce8;
 }
 
 body {
@@ -253,4 +257,97 @@ nav {
   display: inline;
   line-height: 52px;
   color: var(--primary3);
+}
+
+#works-section {
+  margin-top: 33px;
+  margin-bottom: 48px;
+}
+
+.portfolio-works {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 327px;
+  row-gap: 40px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.portfolio-works img {
+  height: 236px;
+  width: 327px;
+  margin-bottom: 24px;
+}
+
+.portfolio-header {
+  height: 105px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.portfolio-header h3 {
+  font-size: 32px;
+  font-weight: 500px;
+  line-height: 44px;
+  color: var(--neutral);
+}
+
+.portfolio-works .descriptive-text {
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--neutral-8);
+  text-align: left;
+  height: 204px;
+  margin-top: 24px;
+  margin-bottom: 0;
+
+}
+
+.portfolio-description-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.portfolio-description-section ul {
+  width: 375px;
+  height: 40px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+.portfolio-description-section li {
+  list-style-type: none;
+  border-right: 1px solid #555;
+
+}
+
+.portfolio-description-section li:last-child {
+  border-right: none;
+}
+
+.portfolio-description-section li p {
+  color: var(--neutral);
+  padding-right: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.portfolio-description-section button {
+  margin-top: 24px;
+  justify-self: flex-start;
+  width: 89px;
+  height: 48px;
+  padding: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  color: var(--primary4);
+  background-color: var(--primary2);
 }
