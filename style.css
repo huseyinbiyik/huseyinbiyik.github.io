@@ -84,10 +84,12 @@ nav {
 
 .primary-text-container {
   height: 55px;
+  width: 327px;
 }
 
 .supporting-text-container {
   height: 87px;
+  width: 327px;
   margin-top: 12px;
   display: flex;
   align-items: center;
