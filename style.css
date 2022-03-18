@@ -1,3 +1,7 @@
+:root {
+  --primary3: #9490ff;
+}
+
 body {
   font-family: Roboto, "Lucida Grande", Tahoma, sans-serif;
   margin: 0;
@@ -57,7 +61,7 @@ nav {
   align-items: center;
 }
 
-.hamburger-menu > span {
+.hamburger-menu>span {
   border-bottom: 2px solid #fff;
   width: 100%;
   display: block;
@@ -228,4 +232,25 @@ nav {
   font-weight: 500;
   line-height: 32px;
   color: #a2a3ae;
+}
+
+/* Works Section Begins*/
+
+.works-header-wrapper {
+  height: 104;
+  text-align: left;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 79.85px;
+
+}
+
+.works-header-wrapper h2 {
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline;
+  line-height: 52px;
+  color: var(--primary3);
 }
