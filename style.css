@@ -327,7 +327,7 @@ nav {
   border-right: 1px solid #555;
 }
 
-.language-tags > li:last-child {
+.portfolio-description-section ul li:last-child {
   border-right: none;
 }
 
