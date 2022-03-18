@@ -376,3 +376,10 @@ nav {
   background-color: var(--neutral-2);
   color: var(--neutral-7);
 }
+
+.background-container{
+background-image: url(assets/background-shapes.png);
+background-position-y: 121.22px;
+background-repeat: no-repeat;
+}
+
