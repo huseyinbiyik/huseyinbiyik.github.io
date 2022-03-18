@@ -25,6 +25,7 @@ main {
 main {
   background-image: url(assets/background-circles.svg);
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .menu-container {
@@ -83,12 +84,10 @@ nav {
 
 .primary-text-container {
   height: 55px;
-  width: 327px;
 }
 
 .supporting-text-container {
   height: 87px;
-  width: 327px;
   margin-top: 12px;
   display: flex;
   align-items: center;
@@ -132,7 +131,6 @@ nav {
   margin-right: 24px;
   margin-top: 33px;
   margin-bottom: 0;
-  width: 327px;
   height: 1px;
   background-color: #646369;
   border-width: 0;
@@ -142,7 +140,12 @@ nav {
   margin-left: 36px;
   margin-right: 36px;
   margin-top: 37.33px;
-  width: 303px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container{
   display: flex;
   flex-wrap: wrap;
   gap: 63.58px;
@@ -378,4 +381,5 @@ nav {
   background-image: url(assets/background-shapes.png);
   background-position-y: 121.22px;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
