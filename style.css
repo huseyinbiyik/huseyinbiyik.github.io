@@ -19,7 +19,6 @@ body {
 
 header,
 main {
-  width: 375px;
   text-align: center;
 }
 
@@ -202,6 +201,8 @@ nav {
 }
 
 .social-media {
+  list-style-type: none;
+  padding: 0;
   width: 200px;
   display: flex;
   margin: 0 auto;
