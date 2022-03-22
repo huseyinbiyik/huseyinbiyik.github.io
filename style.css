@@ -350,7 +350,7 @@ nav {
   line-height: 20px;
 }
 
-.portfolio-description-section button {
+button {
   margin-top: 24px;
   justify-self: flex-start;
   width: 89px;
@@ -390,4 +390,16 @@ nav {
   background-position-y: 121.22px;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+footer{
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+footer h2{
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 500;
+  color: #9390ff;
 }
