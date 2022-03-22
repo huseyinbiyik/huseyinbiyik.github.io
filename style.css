@@ -5,9 +5,11 @@
   --primary4: #edecff;
   --neutral: #fff;
   --neutral-2: #2a2b33;
+  --neutral-5: #81818c;
   --neutral-7: #c8c8d4;
   --neutral-8: #dcdce8;
   --neutral-9: #eaeaf6;
+  --neutral-10: #f5f5ff;
 }
 
 html {
@@ -73,7 +75,7 @@ nav {
   align-items: center;
 }
 
-.hamburger-menu > span {
+.hamburger-menu>span {
   border-bottom: 2px solid #fff;
   width: 100%;
   display: block;
@@ -337,16 +339,16 @@ nav {
   padding: 0;
 }
 
-.portfolio-description-section ul > li {
+.portfolio-description-section ul>li {
   list-style-type: none;
   border-right: 1px solid #555;
 }
 
-.portfolio-description-section ul > li:last-child {
+.portfolio-description-section ul>li:last-child {
   border-right: none;
 }
 
-.portfolio-description-section li > p {
+.portfolio-description-section li>p {
   color: var(--neutral);
   padding-right: 20px;
   font-size: 15px;
@@ -397,8 +399,10 @@ button {
 }
 
 footer {
-  margin-right: 24px;
-  margin-left: 24px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer h2 {
@@ -411,20 +415,74 @@ footer h2 {
 }
 
 footer p {
-  color: #f5f5ff;
+  color: var(--neutral-10);
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2px;
-  margin: 24px 0;
+  margin: 24px 24px 40px 24px;
+  text-align: center;
+}
+footer form{
+  width: 100%;
 }
 
-footer ul {
+footer form ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 24px;
+  
 }
 
-footer ul li {
-  margin-top: 20px;
+footer form ul li {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+footer form ul li input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 48px;
+  padding: 15px 16px;
+  font-size: 15px;
+  color: var(--neutral-5);
+}
+
+footer form textarea {
+  box-sizing: border-box;
+  height: 148px;
+  width: 100%;
+  padding: 12px;
+  color: var(--neutral-5);
+}
+
+footer form textarea::placeholder{
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--neutral-5);
+}
+
+footer form .submit-button {
+  margin-top: 40px;
+  margin-bottom: 71px;
+  text-align: center;
+}
+
+.submit-button button{
+  margin-top: 0;
+}
+
+#full-width-line {
+  margin-top: 0;
+  margin-bottom: 25px;
+  width: 100%;
+  border-top-color: #3a3837;
+  border-width: 1px 0 0 0;
+}
+
+#send-email {
+  text-decoration: none;
+  color: #ebebff;
+  margin-top: 9px;
+  padding-bottom: 40px;
 }
