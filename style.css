@@ -75,7 +75,7 @@ nav {
   align-items: center;
 }
 
-.hamburger-menu>span {
+.hamburger-menu > span {
   border-bottom: 2px solid #fff;
   width: 100%;
   display: block;
@@ -339,16 +339,16 @@ nav {
   padding: 0;
 }
 
-.portfolio-description-section ul>li {
+.portfolio-description-section ul > li {
   list-style-type: none;
   border-right: 1px solid #555;
 }
 
-.portfolio-description-section ul>li:last-child {
+.portfolio-description-section ul > li:last-child {
   border-right: none;
 }
 
-.portfolio-description-section li>p {
+.portfolio-description-section li > p {
   color: var(--neutral);
   padding-right: 20px;
   font-size: 15px;
@@ -405,7 +405,7 @@ footer {
   align-items: center;
 }
 
-footer h2 {
+#contact-form-heading {
   font-size: 32px;
   line-height: 44px;
   font-weight: 500;
@@ -414,7 +414,7 @@ footer h2 {
   margin-bottom: 24px;
 }
 
-footer p {
+#contact-form-text {
   color: var(--neutral-10);
   font-weight: 400;
   font-size: 16px;
@@ -422,6 +422,7 @@ footer p {
   margin: 24px 24px 40px 24px;
   text-align: center;
 }
+
 footer form{
   width: 100%;
 }
@@ -430,15 +431,14 @@ footer form ul {
   list-style: none;
   padding: 0;
   margin: 0 24px;
-  
 }
 
-footer form ul li {
+#contact-form ul li {
   width: 100%;
   margin-bottom: 24px;
 }
 
-footer form ul li input {
+#contact-form ul li input {
   box-sizing: border-box;
   width: 100%;
   height: 48px;
@@ -447,7 +447,7 @@ footer form ul li input {
   color: var(--neutral-5);
 }
 
-footer form textarea {
+#contact-form textarea {
   box-sizing: border-box;
   height: 148px;
   width: 100%;
@@ -455,20 +455,20 @@ footer form textarea {
   color: var(--neutral-5);
 }
 
-footer form textarea::placeholder{
+#contact-form textarea::placeholder {
   font-family: Inter, sans-serif;
   font-size: 15px;
   line-height: 24px;
   color: var(--neutral-5);
 }
 
-footer form .submit-button {
+#contact-form .submit-button {
   margin-top: 40px;
   margin-bottom: 71px;
   text-align: center;
 }
 
-.submit-button button{
+#contact-submit {
   margin-top: 0;
 }
 

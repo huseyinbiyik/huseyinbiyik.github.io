@@ -274,13 +274,13 @@
   </main>
 
   <footer>
-    <h2>CONTACT US</h2>
-    <p>
+    <h2 id="contact-form-heading">CONTACT US</h2>
+    <p id="contact-form-text">
       If you have an application you are interested in developing, a feature
       that you need built or a project that needs coding. I'd love to help
       with it
     </p>
-    <form action="https://formspree.io/f/mwkyqjql" method="post">
+    <form id="contact-form" action="https://formspree.io/f/mwkyqjql" method="post">
       <ul>
         <li>
           <input id="name" name="user-name" type="text" maxlength="30" placeholder="text input" required>
@@ -292,7 +292,7 @@
           <textarea name="user-message" id="msg" maxlength="500" placeholder="Enter text area"></textarea>
         </li>
         <li class="submit-button">
-          <button type="submit">See Project</button>
+          <button id="contact-submit" type="submit">See Project</button>
         </li>
       </ul>
     </form>
