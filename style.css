@@ -10,6 +10,10 @@
   --neutral-9: #eaeaf6;
 }
 
+html {
+  font-family: "Inter", sans-serif;
+}
+
 body {
   font-family: Roboto, "Lucida Grande", Tahoma, sans-serif;
   margin: 0;
@@ -392,12 +396,12 @@ button {
   background-size: 100%;
 }
 
-footer{
+footer {
   margin-right: 24px;
   margin-left: 24px;
 }
 
-footer h2{
+footer h2 {
   font-size: 32px;
   line-height: 44px;
   font-weight: 500;
@@ -406,6 +410,21 @@ footer h2{
   margin-bottom: 24px;
 }
 
-footer p{
+footer p {
+  color: #f5f5ff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin: 24px 0;
+}
 
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-top: 20px;
 }
