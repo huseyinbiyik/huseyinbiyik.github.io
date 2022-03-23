@@ -510,6 +510,10 @@ footer form {
   display: none;
 }
 
+#desktop-down-arrow {
+  display: none;
+}
+
 /* Media Queries For Desktop View */
 
 @media only screen and (min-width: 768px) {
@@ -680,4 +684,21 @@ footer form {
     margin-top: 33px;
     margin-bottom: 96px;
   }
+
+  .social-media-container {
+    flex-direction: row;
+    margin-left: 208.5px;
+    margin-right: 208.5px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .work-arrow-container {
+    margin-top: 0;
+  }
+
+  #desktop-down-arrow {
+    display: block;
+  }
+
 }  
