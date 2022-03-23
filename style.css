@@ -370,23 +370,23 @@ button {
   background-color: var(--primary2);
 }
 
-.portfolio-description-section button:enabled {
+button:enabled {
   color: var(--primary4);
   background-color: var(--primary2);
 }
 
-.portfolio-description-section button:hover {
+button:hover {
   color: var(--neutral);
   background-color: var(--primary2);
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
-.portfolio-description-section button:active {
+button:active {
   background-color: var(--primary1);
   color: var(--neutral-9);
 }
 
-.portfolio-description-section button:disabled {
+button:disabled {
   background-color: var(--neutral-2);
   color: var(--neutral-7);
 }
@@ -478,11 +478,21 @@ footer form {
   width: 100%;
   border-top-color: #3a3837;
   border-width: 1px 0 0 0;
+  border-top-style: solid;
 }
 
 #send-email {
   text-decoration: none;
   color: #ebebff;
   margin-top: 9px;
-  padding-bottom: 40px;
+  padding-bottom: 27px;
+}
+
+#last-line {
+  width: 40%;
+  border-top-color: #0d141e;
+  border-width: 13px 0 0 0;
+  border-top-style: solid;
+  border-radius: 5px;
+  margin: 0 0 8px 0;
 }
