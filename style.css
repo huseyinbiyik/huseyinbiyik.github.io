@@ -92,18 +92,15 @@ nav {
 .tagline-container {
   margin-left: 24px;
   margin-right: 24px;
-  height: 154px;
   margin-top: 47px;
 }
 
 .primary-text-container {
   height: 55px;
-  width: 327px;
 }
 
 .supporting-text-container {
   height: 87px;
-  width: 327px;
   margin-top: 12px;
   display: flex;
   align-items: center;
@@ -577,5 +574,69 @@ footer form {
     height: 18px;
     margin-left: 21px;
   }
+
+  /* Header Responsive End */
   
+  .tagline-container{
+    margin-top: 130px;
+    margin-left: 142px;
+    margin-right: 142px;
+  }
+
+  .primary-text-container,
+  .supporting-text-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .primary-text-container h1 {
+    font-family: Roboto;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 105px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: block;
+  }
+
+  .supporting-text-container {
+    margin-top: 24px;
+  }
+
+  .supporting-text-container h2 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .description-text {
+    margin: 88px 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .description-text p {
+    max-width: 447px;
+    height: 155px;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .main-separator {
+    max-width: 448px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }  
