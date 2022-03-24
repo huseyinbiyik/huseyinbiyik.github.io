@@ -13,7 +13,7 @@
 }
 
 ul {
-  list-style: none;;
+  list-style: none;
 }
 
 a {
@@ -232,7 +232,7 @@ nav {
   align-items: center;
 }
 
-.social-media li {
+.social-media-container.social-media li {
   height: 20px;
 }
 
@@ -367,7 +367,7 @@ nav {
   height: 100%;
 }
 
-.portfolio-description-section ul > li {
+.portfolio-description-section .portfolio-tags ul > li {
   list-style-type: none;
   border-right: 1px solid #555;
   height: 100%;
@@ -550,7 +550,8 @@ footer form {
   .hamburger-menu {
     display: none;
   }
-  header{
+
+  header {
     width: 100%;
     height: 72px;
     text-align: center;
@@ -560,7 +561,6 @@ footer form {
     height: 100%;
     margin: 0 151px 0 142px;
     justify-content: space-between;
-
   }
 
   header nav {
@@ -593,7 +593,6 @@ footer form {
   }
 
   .menu-list li a {
-    font-family: Roboto;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -601,8 +600,8 @@ footer form {
     text-align: center;
     color: var(--neutral);
   }
-  
-  #email-icon{
+
+  #email-icon {
     display: block;
     width: 22px;
     height: 18px;
@@ -610,8 +609,8 @@ footer form {
   }
 
   /* Header Responsive End */
-  
-  .tagline-container{
+
+  .tagline-container {
     margin-top: 130px;
     margin-left: 142px;
     margin-right: 142px;
@@ -624,12 +623,10 @@ footer form {
   }
 
   .primary-text-container h1 {
-    font-family: Roboto;
     font-size: 90px;
     font-style: normal;
     font-weight: 700;
     line-height: 105px;
-    letter-spacing: 0em;
     text-align: center;
     display: block;
   }
@@ -639,12 +636,10 @@ footer form {
   }
 
   .supporting-text-container h2 {
-    font-family: Roboto;
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
     line-height: 47px;
-    letter-spacing: 0em;
     text-align: center;
   }
 
@@ -663,7 +658,6 @@ footer form {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
-    letter-spacing: 0em;
     text-align: center;
   }
 
@@ -680,33 +674,29 @@ footer form {
   }
 
   .feature-container {
-  width: 123px;
-  text-align: left;
+    width: 123px;
+    text-align: left;
   }
 
   .feature-container h4 {
     margin: 5.33px 8px 24.5px;
-    font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 29px;
-    letter-spacing: 0em;
     text-align: left;
   }
 
-  .feature-container ul li {
+  .personel-feature-container .feature-container ul li {
     margin-left: 7.17px;
     min-width: 123px;
   }
 
   .feature-container ul li p {
-    font-family: Roboto;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
-    letter-spacing: 0em;
     text-align: left;
   }
 
@@ -743,14 +733,11 @@ footer form {
 
   .works-header-wrapper h2 {
     text-transform: none;
-    font-family: Roboto;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: 114px;
-    letter-spacing: 0em;
     text-align: left;
-
   }
 
   #works-section {
@@ -774,7 +761,13 @@ footer form {
 
   #portfolio-works .portfolio-post:nth-child(even) {
     flex-direction: row-reverse;
-    padding-left: 0;  
+    padding-left: 0;
+  }
+
+  .portfolio-works .portfolio-post .portfolio-description-section {
+    width: 40%;
+    margin-top: 0;
+    padding-left: 24px;
   }
 
   #portfolio-works .portfolio-post:nth-child(even) .portfolio-description-section {
@@ -790,42 +783,30 @@ footer form {
     margin-bottom: 0;
   }
 
-  .portfolio-works .portfolio-description-section {
-    width: 40%;
-    margin-top: 0;
-    padding-left: 24px;
-  }
-
   .portfolio-description-section .portfolio-header h3 {
-    font-family: Roboto;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
-    letter-spacing: 0em;
     text-align: left;
   }
 
   /* Footer responsive styling starts */
 
   #contact-form-heading {
-    font-family: Roboto;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: center;
     margin-top: 228px;
   }
 
   #contact-form-text {
-    font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0em;
     text-align: center;
     max-width: 684px;
     margin-left: 0;
@@ -847,22 +828,18 @@ footer form {
   }
 
   #contact-form ul li input {
-    font-family: Roboto;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0em;
     text-align: left;
   }
 
   #contact-form textarea {
-    font-family: Roboto;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    letter-spacing: 0em;
     text-align: left;
   }
 
@@ -872,12 +849,10 @@ footer form {
   }
 
   #contact-submit {
-    font-family: Roboto;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.03em;
     text-align: center;
   }
 
@@ -888,7 +863,6 @@ footer form {
     justify-content: center;
     align-items: center;
     margin-bottom: 26px;
-
   }
 
   #send-email {
@@ -907,5 +881,4 @@ footer form {
   .background-container {
     background-image: url(assets/desktop-work-section-shapes.png);
   }
-
 }
