@@ -36,6 +36,12 @@ main {
   text-align: center;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 main {
   background-image: url(assets/background-circles.svg);
   background-repeat: no-repeat;
@@ -92,11 +98,11 @@ nav {
 .tagline-container {
   margin-left: 24px;
   margin-right: 24px;
-  margin-top: 47px;
+  margin-top: 95px;
 }
 
 .primary-text-container {
-  height: 55px;
+  height: auto;
 }
 
 .supporting-text-container {
@@ -763,13 +769,17 @@ footer form {
   #portfolio-works .portfolio-post {
     flex-direction: row;
     flex-wrap: nowrap;
-
+    align-items: center;
   }
 
   #portfolio-works .portfolio-post:nth-child(even) {
     flex-direction: row-reverse;
-    margin-left: 0;
-    margin-right: 24px;
+    padding-left: 0;  
+  }
+
+  #portfolio-works .portfolio-post:nth-child(even) .portfolio-description-section {
+    padding-left: 0;
+    padding-right: 24px;
   }
 
   #portfolio-works .portfolio-image-container {
@@ -782,8 +792,8 @@ footer form {
 
   .portfolio-works .portfolio-description-section {
     width: 40%;
+    margin-top: 0;
     padding-left: 24px;
-    margin-top: 43px;
   }
 
   .portfolio-description-section .portfolio-header h3 {
@@ -888,6 +898,14 @@ footer form {
 
   #last-line {
     display: none;
+  }
+
+  main {
+    background-image: url(assets/desktop\ two\ circles\ header.png);
+  }
+
+  .background-container {
+    background-image: url(assets/desktop-work-section-shapes.png);
   }
 
 }
