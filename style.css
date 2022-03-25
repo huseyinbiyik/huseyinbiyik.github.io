@@ -385,6 +385,10 @@ nav {
   line-height: 20px;
 }
 
+.logo-container p:hover {
+  color: #5e42d7;
+}
+
 button {
   margin-top: 24px;
   justify-self: flex-start;
@@ -586,6 +590,10 @@ footer form {
     box-sizing: border-box;
     padding: 10px 12px;
     margin-right: 8px;
+  }
+
+  .menu-list li:hover {
+    text-decoration: underline;
   }
 
   .menu-list li:last-child {
