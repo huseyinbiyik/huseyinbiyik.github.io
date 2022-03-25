@@ -2,4 +2,4 @@
 .DS_Store
 
 #Ignore Node Files
-.node_modules
+.node_modules/
