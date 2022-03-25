@@ -592,6 +592,10 @@ footer form {
     margin-right: 8px;
   }
 
+  .menu-list li:hover{
+    text-decoration: underline;
+   }
+
   .menu-list li:last-child {
     margin-right: 0;
   }
