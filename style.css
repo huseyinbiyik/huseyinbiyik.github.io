@@ -54,10 +54,6 @@ main {
   justify-content: space-between;
 }
 
-.logo-container p:hover{
-color: #5e42d7;
-}
-
 .logo-container {
   height: 36px;
   display: flex;
@@ -389,6 +385,10 @@ nav {
   line-height: 20px;
 }
 
+.logo-container p:hover {
+  color: #5e42d7;
+}
+
 button {
   margin-top: 24px;
   justify-self: flex-start;
@@ -592,9 +592,9 @@ footer form {
     margin-right: 8px;
   }
 
-  .menu-list li:hover{
+  .menu-list li:hover {
     text-decoration: underline;
-   }
+  }
 
   .menu-list li:last-child {
     margin-right: 0;
