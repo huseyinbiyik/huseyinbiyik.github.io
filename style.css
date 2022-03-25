@@ -54,6 +54,10 @@ main {
   justify-content: space-between;
 }
 
+.logo-container p:hover{
+color: #5e42d7;
+}
+
 .logo-container {
   height: 36px;
   display: flex;
