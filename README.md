@@ -56,6 +56,20 @@ You can check the Github Pages link.
 
 - GitHub: [@yusufnviiri](https://github.com/yusufnviiri)
 
+👤 **Author4 Abol Ger**
+
+ GitHub: [@ger619](https://github.com/ger619)
+- Twitter: [@ger_abol](https://twitter.com/ger_abol)
+- LinkedIn: [David Ger](https://www.linkedin.com/in/david-ger-426b4576/)
+
+👤 **Author5: Kelvin Bush**
+
+- GitHub: [@kelvinbush](https://github.com/kelvinbush)
+- Twitter: [@kelvin_bush_](https://twitter.com/kelvin_bush_)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kelvin-wachiye-04b469173/)
+
+
+
 
 ## 🤝 Contributing
 
