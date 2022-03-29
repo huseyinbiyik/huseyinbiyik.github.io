@@ -176,7 +176,7 @@ nav {
   text-align: left;
 }
 
-.feature-container h4 {
+.feature-container h3 {
   font-size: 12px;
   font-weight: 500;
   line-height: 24px;
@@ -617,7 +617,6 @@ footer form {
   }
 
   /* Header Responsive End */
-
   .tagline-container {
     margin-top: 130px;
     margin-left: 142px;
@@ -686,7 +685,7 @@ footer form {
     text-align: left;
   }
 
-  .feature-container h4 {
+  .feature-container h3 {
     margin: 5.33px 8px 24.5px;
     font-size: 18px;
     font-style: normal;
@@ -731,7 +730,6 @@ footer form {
   }
 
   /* My Works Section Starts */
-
   .works-header-wrapper {
     margin-top: 228px;
     margin-left: 142px;
@@ -800,7 +798,6 @@ footer form {
   }
 
   /* Footer responsive styling starts */
-
   #contact-form-heading {
     font-size: 40px;
     font-style: normal;
