@@ -89,7 +89,7 @@ nav {
   align-items: center;
 }
 
-.hamburger-menu > span {
+.hamburger-menu>span {
   border-bottom: 2px solid #fff;
   width: 100%;
   display: block;
@@ -367,17 +367,17 @@ nav {
   height: 100%;
 }
 
-.portfolio-description-section .portfolio-tags ul > li {
+.portfolio-description-section .portfolio-tags ul>li {
   list-style-type: none;
   border-right: 1px solid #555;
   height: 100%;
 }
 
-.portfolio-description-section ul > li:last-child {
+.portfolio-description-section ul>li:last-child {
   border-right: none;
 }
 
-.portfolio-description-section li > p {
+.portfolio-description-section li>p {
   color: var(--neutral);
   padding-right: 20px;
   font-size: 15px;
@@ -776,9 +776,7 @@ footer form {
     padding-left: 24px;
   }
 
-  #portfolio-works
-    .portfolio-post:nth-child(even)
-    .portfolio-description-section {
+  #portfolio-works .portfolio-post:nth-child(even) .portfolio-description-section {
     padding-left: 0;
     padding-right: 24px;
   }
@@ -924,10 +922,30 @@ footer form {
   font-size: 24px;
   line-height: 32px;
   color: var(--primary4);
+
+}
+
+.active .menu-list li img {
+  padding-left: 190px;
 }
 
 .active .hamburger-menu {
   position: absolute;
-  top: 10px;
+  top: 16px;
   right: 24px;
+  width: 14px;
+  height: 14px;
+}
+
+.active .hamburger-menu span:nth-child(1){
+  transform: translateY(15px) rotate(45deg);
+}
+
+.active .hamburger-menu span:nth-child(3){
+  transform: translateY(8px) rotate(-45deg);
+}
+
+.active .hamburger-menu span:nth-child(2){
+  display: none;
+  opacity: 0;
 }
