@@ -10,6 +10,8 @@
   --neutral-8: #dcdce8;
   --neutral-9: #eaeaf6;
   --neutral-10: #f5f5ff;
+
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -358,7 +360,6 @@ nav {
 }
 
 .portfolio-description-section ul {
-  width: 375px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -552,6 +553,10 @@ footer form {
 
 @media only screen and (min-width: 768px) {
   .hamburger-menu {
+    display: none;
+  }
+
+  .menu-list li img {
     display: none;
   }
 
@@ -887,5 +892,74 @@ footer form {
 
   .background-container {
     background-image: url(assets/desktop-work-section-shapes.png);
+  }
+}
+
+/* mobile navigation */
+
+@media (max-width: 768px) {
+  .active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #191765;
+    background-image: url(./assets/mobilenavbg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .active .menu-list {
+    display: block;
+    position: absolute;
+    top: 76px;
+    left: 0;
+    text-align: start;
+    width: 100%;
+  }
+
+  .active .menu-list li {
+    margin-bottom: 38px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .active .menu-list li a {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--primary4);
+  }
+
+  .active .menu-list li img {
+    margin-right: 48px;
+    display: block;
+  }
+
+  .active .hamburger-menu {
+    position: absolute;
+    top: 16px;
+    right: 38px;
+    width: 14px;
+    height: 14px;
+  }
+
+  .active .hamburger-menu span:nth-child(1) {
+    transform: translateY(15px) rotate(45deg);
+  }
+
+  .active .hamburger-menu span:nth-child(3) {
+    transform: translateY(8px) rotate(-45deg);
+  }
+
+  .active .hamburger-menu span:nth-child(2) {
+    display: none;
+    opacity: 0;
+  }
+
+  .overflow-disabled {
+    overflow-y: hidden;
   }
 }
