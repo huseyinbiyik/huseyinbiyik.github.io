@@ -3,3 +3,6 @@
 
 #Ignore Node Files
 node_modules
+
+#vscode files
+.vscode

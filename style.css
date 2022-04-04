@@ -776,7 +776,9 @@ footer form {
     padding-left: 24px;
   }
 
-  #portfolio-works .portfolio-post:nth-child(even) .portfolio-description-section {
+  #portfolio-works
+    .portfolio-post:nth-child(even)
+    .portfolio-description-section {
     padding-left: 0;
     padding-right: 24px;
   }
@@ -888,4 +890,44 @@ footer form {
   .background-container {
     background-image: url(assets/desktop-work-section-shapes.png);
   }
+}
+
+/* toggle stuff */
+
+.active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #191765;
+  background-image: url(./assets/mobilenavbg.svg);
+}
+
+.active .menu-list {
+  display: block;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  text-align: start;
+}
+
+.active .menu-list li {
+  margin-bottom: 38px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.active .menu-list li a {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--primary4);
+}
+
+.active .hamburger-menu {
+  position: absolute;
+  top: 10px;
+  right: 24px;
 }
