@@ -63,14 +63,14 @@ let portfolio_work4 = {
 
 //dynamic content function
 function dynamicContent(worknumber, portfolio_work) {
-  let portfolio_image = worknumber.querySelector('.portfolio-work-image');
-  let portfolio_title = worknumber.querySelector('.portfolio-title');
-  let portfolio_description = worknumber.querySelector('.descriptive-text');
-  let tech_tag1 = worknumber.querySelector('.tech-tag1');
-  let tech_tag2 = worknumber.querySelector('.tech-tag2');
-  let tech_tag3 = worknumber.querySelector('.tech-tag3');
-  let tech_tag4 = worknumber.querySelector('.tech-tag4');
-  let see_project_btn = worknumber.querySelector('.see-project-btn');
+  portfolio_image = worknumber.querySelector('.portfolio-work-image');
+  portfolio_title = worknumber.querySelector('.portfolio-title');
+  portfolio_description = worknumber.querySelector('.descriptive-text');
+  tech_tag1 = worknumber.querySelector('.tech-tag1');
+  tech_tag2 = worknumber.querySelector('.tech-tag2');
+  tech_tag3 = worknumber.querySelector('.tech-tag3');
+  tech_tag4 = worknumber.querySelector('.tech-tag4');
+  see_project_btn = worknumber.querySelector('.see-project-btn');
 
   portfolio_image.src = portfolio_work.portfolio_image;
   portfolio_title.innerHTML = portfolio_work.portfolio_title;
@@ -92,4 +92,15 @@ dynamicContent(work3, portfolio_work3);
 dynamicContent(work4, portfolio_work4);
 
 
+//Modal button
+dynamicContent(work1, portfolio_work1);
+see_project_btn.addEventListener('click', () => {
+  //show dialog
+  const dialog = document.querySelector('dialog');
+  dialog.showModal();
+  //close dialog
+  dialog.querySelector('.close').addEventListener('click', () => {
+    dialog.close();
+  });
 
+});
