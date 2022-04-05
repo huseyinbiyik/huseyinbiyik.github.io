@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 :root {
   --primary1: #5e42d7;
   --primary2: #7d73fc;
@@ -91,7 +93,7 @@ nav {
   align-items: center;
 }
 
-.hamburger-menu>span {
+.hamburger-menu > span {
   border-bottom: 2px solid #fff;
   width: 100%;
   display: block;
@@ -368,17 +370,17 @@ nav {
   height: 100%;
 }
 
-.portfolio-description-section .portfolio-tags ul>li {
+.portfolio-description-section .portfolio-tags ul > li {
   list-style-type: none;
   border-right: 1px solid #555;
   height: 100%;
 }
 
-.portfolio-description-section ul>li:last-child {
+.portfolio-description-section ul > li:last-child {
   border-right: none;
 }
 
-.portfolio-description-section li>p {
+.portfolio-description-section li > p {
   color: var(--neutral);
   padding-right: 20px;
   font-size: 15px;
@@ -970,10 +972,9 @@ footer form {
   padding: 24px;
   border: 1px solid #fff;
   background: rgba(255, 255, 255, 0.16);
-  box-shadow: 0px 48px 48px 0 rgba(37, 47, 137, 0.08);
+  box-shadow: 0 48px 48px 0 rgba(37, 47, 137, 0.08);
   backdrop-filter: blur(15px);
   text-align: center;
-
 }
 
 .modal::backdrop {
@@ -988,13 +989,12 @@ footer form {
 }
 
 .modal-header {
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  Color: #fff;
+  color: #fff;
   margin-bottom: 24px;
 }
 
@@ -1004,16 +1004,15 @@ footer form {
 }
 
 .modal-text {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
   color: #fff;
 }
 
-.modal ul {
+.modal .modal-tags {
   margin: 0;
   padding: 0;
   display: flex;
@@ -1021,20 +1020,19 @@ footer form {
   justify-content: center;
 }
 
-.modal ul li p {
-  font-family: Poppins;
+.modal-tags .modal-long-desc {
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   color: #fff;
   padding: 14px;
-  border-right: 1px solid #81818C;
+  border-right: 1px solid #81818c;
 }
 
 .modal-tech-tag-1 {
-  border-left: 1px solid #81818C;
+  border-left: 1px solid #81818c;
 }
 
 .modal-button-container {
@@ -1060,17 +1058,19 @@ footer form {
   .modal {
     margin: auto 168px;
   }
-  .modal-header{
+
+  .modal-header {
     margin-left: 24px;
   }
-  .modal-text{
-    padding-left: 236px;
-    padding-right: 236px;
+
+  .modal-text {
+    width: 60%;
+    margin: 0 auto;
   }
-  .modal-button-container{
+
+  .modal-button-container {
     flex-direction: row;
     justify-content: center;
     gap: 78px;
   }
-
 }
