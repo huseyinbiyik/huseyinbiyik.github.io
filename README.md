@@ -9,7 +9,7 @@
 
 - HTML5
 - CSS3
--JavaScript
+- JavaScript
 - Formspree.io
 
 ## Live Demo
@@ -41,34 +41,39 @@ You can check the Github Pages link.
 
 ## Authors
 
-👤 **Author1**
+👤 **Huseyin Biyik**
 
 - GitHub: [@huseyinbiyik](https://github.com/huseyinbiyik)
 - Twitter: [@huseyin__biyik](https://twitter.com/huseyin__biyik)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/huseyin-b%C4%B1y%C4%B1k/)
 
-👤 **Author2**
+👤 **Muhammad Usama**
 
 - GitHub: [@MuhmmdUsama](https://github.com/MuhmmdUsama)
 - Twitter: [@MuhmmdUsama](https://twitter.com/MuhmmdUsama)
 - LinkedIn: [@muhmmdusama](https://www.linkedin.com/in/muhmmdusama/)
 
-👤 **Author3**
+👤 **Yusuf Nviiri**
 
 - GitHub: [@yusufnviiri](https://github.com/yusufnviiri)
 
-👤 **Author4 Abol Ger**
+👤 **Abol Ger**
 
  GitHub: [@ger619](https://github.com/ger619)
 - Twitter: [@ger_abol](https://twitter.com/ger_abol)
 - LinkedIn: [David Ger](https://www.linkedin.com/in/david-ger-426b4576/)
 
-👤 **Author5: Kelvin Bush**
+👤 **Kelvin Bush**
 
 - GitHub: [@kelvinbush](https://github.com/kelvinbush)
 - Twitter: [@kelvin_bush_](https://twitter.com/kelvin_bush_)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kelvin-wachiye-04b469173/)
 
+👤 **Odaltoneric**
+
+- GitHub: [@ndayishimiyeeric](https://github.com/ndayishimiyeeric)
+- Twitter: [@odaltongain](https://twitter.com/odaltongain)
+- LinkedIn: [Ndayishimiye Eric](https://linkedin.com/in/nderic)
 
 
 

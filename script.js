@@ -159,3 +159,23 @@ seeProjectBtn4.addEventListener('click', () => {
     dialog.close();
   });
 });
+
+// form validation
+
+const form = document.getElementById('contact-form');
+const email = document.getElementById('email');
+const warningMessage = document.getElementById('warning-message');
+
+form.addEventListener('submit', (event) => {
+  if (email.value !== email.value.toLowerCase()) {
+    event.preventDefault();
+    warningMessage.style.visibility = 'visible';
+    warningMessage.innerHTML = 'Email must include only small letter';
+    warningMessage.style.color = 'tomato';
+    setTimeout(() => {
+      warningMessage.style.visibility = 'hidden';
+    }, 5000);
+  } else {
+    warningMessage.style.visibility = 'hidden';
+  }
+});
