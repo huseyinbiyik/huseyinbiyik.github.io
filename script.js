@@ -164,16 +164,18 @@ seeProjectBtn4.addEventListener('click', () => {
 
 const form = document.getElementById('contact-form');
 const email = document.getElementById('email');
-const errorMsg = document.getElementById('form-error');
+const warningMessage = document.getElementById('warning-message');
 
 form.addEventListener('submit', (event) => {
   if (email.value !== email.value.toLowerCase()) {
     event.preventDefault();
-    errorMsg.style.visibility = 'visible';
+    warningMessage.style.visibility = 'visible';
+    warningMessage.innerHTML = 'Email must include only small letter';
+    warningMessage.style.color = 'tomato';
     setTimeout(() => {
-      errorMsg.style.visibility = 'hidden';
+      warningMessage.style.visibility = 'hidden';
     }, 5000);
   } else {
-    errorMsg.style.visibility = 'hidden';
+    warningMessage.style.visibility = 'hidden';
   }
 });
