@@ -179,3 +179,18 @@ form.addEventListener('submit', (event) => {
     warningMessage.style.visibility = 'hidden';
   }
 });
+
+// Local storage
+const usName = document.getElementById('name');
+const usEmail = document.getElementById('email');
+const usMessage = document.getElementById('msg');
+
+function populateStorage() {
+  // create visitor object
+  const visitor = { 
+    userName: usName.value,
+    userEmail: usEmail.value,
+    userMessage: usMessage.value,
+  };
+  localStorage.setItem('visitor', JSON.stringify(visitor));
+}
