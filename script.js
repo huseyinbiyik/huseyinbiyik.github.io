@@ -187,10 +187,23 @@ const usMessage = document.getElementById('msg');
 
 function populateStorage() {
   // create visitor object
-  const visitor = { 
+  const visitor = {
     userName: usName.value,
     userEmail: usEmail.value,
     userMessage: usMessage.value,
   };
   localStorage.setItem('visitor', JSON.stringify(visitor));
 }
+
+// Trigger for populating local storage
+usName.addEventListener('focusout', populateStorage);
+usEmail.addEventListener('focusout', populateStorage);
+usMessage.addEventListener('focusout', populateStorage);
+
+// Parse data from local storage
+const userDataObject = JSON.parse(localStorage.getItem('visitor'));
+
+// Refilling form inputs
+usName.value = userDataObject.userName;
+usEmail.value = userDataObject.userEmail;
+usMessage.value = userDataObject.userMessage;
