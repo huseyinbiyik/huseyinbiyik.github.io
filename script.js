@@ -199,7 +199,7 @@ function populateStorage() {
 usName.addEventListener('focusout', populateStorage);
 usEmail.addEventListener('focusout', populateStorage);
 usMessage.addEventListener('focusout', populateStorage);
-
+localStorage.clear();
 // Parse data from local storage
 const userDataObject = JSON.parse(localStorage.getItem('visitor'));
 
