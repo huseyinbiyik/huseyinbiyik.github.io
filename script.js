@@ -20,154 +20,177 @@ for (let i = 0; i < navlinks.length; i += 1) {
 // Dynamic works section
 
 // objects
-const portfolioWork1 = {
-  portfolio_image: 'assets/portfolio-image.jpeg',
-  portfolio_title: 'Multi-Post Stories',
-  portfolio_description: ' A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry \'s standard dummy text ever since the 1500 s, when an unknown printer took a standard dummy text.',
-  tech_tag1: 'HTML',
-  tech_tag2: 'CSS',
-  tech_tag3: 'bootstrap',
-  tech_tag4: 'Ruby',
-  button_text: 'See Project',
-};
-const portfolioWork2 = {
-  portfolio_image: 'assets/portfolio-image.jpeg',
-  portfolio_title: 'Multi-Post Stories',
-  portfolio_description: ' A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry \'s standard dummy text ever since the 1500 s, when an unknown printer took a standard dummy text.',
-  tech_tag1: 'HTML',
-  tech_tag2: 'CSS',
-  tech_tag3: 'bootstrap',
-  tech_tag4: 'Ruby',
-  button_text: 'See Project',
-};
-const portfolioWork3 = {
-  portfolio_image: 'assets/portfolio-image.jpeg',
-  portfolio_title: 'Multi-Post Stories',
-  portfolio_description: ' A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry \'s standard dummy text ever since the 1500 s, when an unknown printer took a standard dummy text.',
-  tech_tag1: 'HTML',
-  tech_tag2: 'CSS',
-  tech_tag3: 'bootstrap',
-  tech_tag4: 'Ruby',
-  button_text: 'See Project',
-};
-const portfolioWork4 = {
-  portfolio_image: 'assets/portfolio-image.jpeg',
-  portfolio_title: 'Multi-Post Stories',
-  portfolio_description: ' A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry \'s standard dummy text ever since the 1500 s, when an unknown printer took a standard dummy text.',
-  tech_tag1: 'HTML',
-  tech_tag2: 'CSS',
-  tech_tag3: 'bootstrap',
-  tech_tag4: 'Ruby',
-  button_text: 'See Project',
-};
+let worksArray = [{
+    portfolio_image: 'assets/portfolio-image.jpeg',
+    portfolio_title: 'Multi-Post Stories',
+    portfolio_description: ' A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry \'s standard dummy text ever since the 1500 s, when an unknown printer took a standard dummy text.',
+    tech_tag1: 'HTML',
+    tech_tag2: 'CSS',
+    tech_tag3: 'bootstrap',
+    tech_tag4: 'Ruby',
+    button_text: 'See Project',
+    //modal data
+    modal_header: 'Multi - Post Stories',
+    modal_image: 'assets/modal-photo-desktop.jpeg',
+    modal_text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
+    first_modal_tag: 'html',
+    second_modal_tag: 'Ruby on Rails',
+    third_modal_tag: 'css',
+  },
+  {
+    portfolio_image: 'assets/portfolio-image.jpeg',
+    portfolio_title: 'Multi-Post Stories',
+    portfolio_description: ' A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry \'s standard dummy text ever since the 1500 s, when an unknown printer took a standard dummy text.',
+    tech_tag1: 'HTML',
+    tech_tag2: 'CSS',
+    tech_tag3: 'bootstrap',
+    tech_tag4: 'Ruby',
+    button_text: 'See Project',
+    //modal data
+    modal_header: 'Multi - Post Stories2',
+    modal_image: 'assets/modal-photo-desktop.jpeg',
+    modal_text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
+    first_modal_tag: 'html',
+    second_modal_tag: 'Ruby on Rails',
+    third_modal_tag: 'css',
+  },
+  {
+    portfolio_image: 'assets/portfolio-image.jpeg',
+    portfolio_title: 'Multi-Post Stories',
+    portfolio_description: ' A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry \'s standard dummy text ever since the 1500 s, when an unknown printer took a standard dummy text.',
+    tech_tag1: 'HTML',
+    tech_tag2: 'CSS',
+    tech_tag3: 'bootstrap',
+    tech_tag4: 'Ruby',
+    button_text: 'See Project',
+    //modal data
+    modal_header: 'Multi - Post Stories',
+    modal_image: 'assets/modal-photo-desktop.jpeg',
+    modal_text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
+    first_modal_tag: 'html',
+    second_modal_tag: 'Ruby on Rails',
+    third_modal_tag: 'css',
+  }, {
+    portfolio_image: 'assets/portfolio-image.jpeg',
+    portfolio_title: 'Multi-Post Stories',
+    portfolio_description: ' A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry \'s standard dummy text ever since the 1500 s, when an unknown printer took a standard dummy text.',
+    tech_tag1: 'HTML',
+    tech_tag2: 'CSS',
+    tech_tag3: 'bootstrap',
+    tech_tag4: 'Ruby',
+    button_text: 'See Project',
+    //modal data
+    modal_header: 'Multi - Post Stories',
+    modal_image: 'assets/modal-photo-desktop.jpeg',
+    modal_text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
+    first_modal_tag: 'html',
+    second_modal_tag: 'Ruby on Rails',
+    third_modal_tag: 'css',
+  }
+]
 
 // dynamic content function
-function dynamicContent(worknumber, portfolioWork) {
-  const portfolioImage = worknumber.querySelector('.portfolio-work-image');
-  const portfolioTitle = worknumber.querySelector('.portfolio-title');
-  const portfolioDescription = worknumber.querySelector('.descriptive-text');
-  const techTag1 = worknumber.querySelector('.tech-tag1');
-  const techTag2 = worknumber.querySelector('.tech-tag2');
-  const techTag3 = worknumber.querySelector('.tech-tag3');
-  const techTag4 = worknumber.querySelector('.tech-tag4');
-
-  portfolioImage.src = portfolioWork.portfolio_image;
-  portfolioTitle.innerHTML = portfolioWork.portfolio_title;
-  portfolioDescription.innerHTML = portfolioWork.portfolio_description;
-  techTag1.innerHTML = portfolioWork.tech_tag1;
-  techTag2.innerHTML = portfolioWork.tech_tag2;
-  techTag3.innerHTML = portfolioWork.tech_tag3;
-  techTag4.innerHTML = portfolioWork.tech_tag4;
+const portfolioContainer = document.getElementById('portfolio-works');
+for (let i = 0; i < worksArray.length; i++) {
+  portfolioContainer.innerHTML += ` <article class="portfolio-post work1">
+ <div class="portfolio-image-container">    <img class="portfolio-work-image portfolio-img" src="${worksArray[i].portfolio_image}" alt="work section project image" />
+ </div>
+ <div class="portfolio-description-section">
+    <div class="portfolio-header">
+      <h3 class="portfolio-title">${worksArray[i].portfolio_title}</h3>
+   </div>
+    <p class="descriptive-text">${worksArray[i].portfolio_description}</p>
+    <div class="portfolio-tags">
+      <ul>
+       <li>
+       <p class="tech-tag1">${worksArray[i].tech_tag1}</p>
+        </li>
+        <li>
+         <p class="tech-tag2">${worksArray[i].tech_tag2}</p>
+       </li>
+       <li>
+        <p class="tech-tag3">${worksArray[i].tech_tag3}</p>
+        </li>
+      <li>
+        <p class="tech-tag4">${worksArray[i].tech_tag4}</p>
+      </li>     </ul>
+    </div>
+    <button type="button" id="${[i]}"class="see-project-btn btn-1">
+      ${worksArray[i].button_text}
+    </button>
+  </div>
+</article>`;
 }
-const work1 = document.querySelector('.work1');
-const work2 = document.querySelector('.work2');
-const work3 = document.querySelector('.work3');
-const work4 = document.querySelector('.work4');
 
-dynamicContent(work1, portfolioWork1);
-dynamicContent(work2, portfolioWork2);
-dynamicContent(work3, portfolioWork3);
-dynamicContent(work4, portfolioWork4);
+//creating dynamic modal
+const projectBtns = document.querySelectorAll('.see-project-btn');
+projectBtns.forEach((element) => {
+  element.addEventListener('click', () => {
+    let dialogBox = document.createElement('dialog');
+    dialogBox.classList.add('modal')
+    dialogBox.innerHTML = `
+   <article class="portfolio-post modal1">
+     <h3 class="modal-header">
+${worksArray[element.id].modal_header}
+     </h3> 
+     <img src="assets/cancelicon.svg" class="modal-close">
+    
+     <img class="modal-image" src="${worksArray[element.id].modal_image}" alt="" />
+     
+     <p class="modal-text">
+     ${worksArray[element.id].modal_text}
+     </p>
+     <ul class="modal-tags">
+       <li>
+         <p class="modal-tech-tag-1 modal-long-desc"> 
+         ${worksArray[element.id].first_modal_tag} 
+         </p>
+       </li>
+       <li>
+         <p class="modal-tech-tag-2 modal-long-desc">
+         ${worksArray[element.id].second_modal_tag}
+         </p>
+       </li>
+       <li>
+         <p class="modal-tech-tag-3 modal-long-desc">
+         ${worksArray[element.id].third_modal_tag}
+         </p>
+       </li>
+     </ul>
+     <div class="modal-button-container">
+       <button type="button">
+         See Live
+         <img src="assets/outerlink.svg" alt="" />
+       </button> <button type="button">
+         See Source
+         <img src="assets/githubicon.svg" alt="" />
+       </button> </div>
+   </article>
+   `
 
-// Modal Object
-const modalObject = {
-  modal_header: 'Multi - Post Stories',
-  modal_image: 'assets/modal-photo-desktop.jpeg',
-  modal_text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
-  first_modal_tag: 'html',
-  second_modal_tag: 'Ruby on Rails',
-  third_modal_tag: 'css',
+    document.body.appendChild(dialogBox);
+    dialogBox.showModal();
+    //modal close
+    let modalCloseBtns = document.querySelectorAll(".modal-close");
+    modalCloseBtns.forEach((el) => {
+      el.addEventListener('click', () => {
+        dialogBox.close();
+      })
+    })
+  })
+})
 
-};
 
-// Modal Selectors
-const modalHeader = document.querySelector('.modal-header');
-const modalImage = document.querySelector('.modal-image');
-const modalText = document.querySelector('.modal-text');
-const modalsFirstTag = document.querySelector('.modal-tech-tag-1');
-const modalsSecondTag = document.querySelector('.modal-tech-tag-2');
-const modalsThirdTag = document.querySelector('.modal-tech-tag-3');
-
-// Dynamic
-modalHeader.innerHTML = modalObject.modal_header;
-modalImage.src = modalObject.modal_image;
-modalText.innerHTML = modalObject.modal_text;
-modalsFirstTag.innerHTML = modalObject.first_modal_tag;
-modalsSecondTag.innerHTML = modalObject.second_modal_tag;
-modalsThirdTag.innerHTML = modalObject.third_modal_tag;
-
-// button selector
-const seeProjectBtn1 = document.querySelector('.btn-1');
-const seeProjectBtn2 = document.querySelector('.btn-2');
-const seeProjectBtn3 = document.querySelector('.btn-3');
-const seeProjectBtn4 = document.querySelector('.btn-4');
-
-// Modal button
-seeProjectBtn1.addEventListener('click', () => {
-  // show dialog
-  const dialog = document.querySelector('dialog');
-  dialog.showModal();
-  // close dialog
-  dialog.querySelector('.modal-close').addEventListener('click', () => {
-    dialog.close();
-  });
-});
-seeProjectBtn2.addEventListener('click', () => {
-  // show dialog
-  const dialog = document.querySelector('dialog');
-  dialog.showModal();
-  // close dialog
-  dialog.querySelector('.modal-close').addEventListener('click', () => {
-    dialog.close();
-  });
-});
-seeProjectBtn3.addEventListener('click', () => {
-  // show dialog
-  const dialog = document.querySelector('dialog');
-  dialog.showModal();
-  // close dialog
-  dialog.querySelector('.modal-close').addEventListener('click', () => {
-    dialog.close();
-  });
-});
-seeProjectBtn4.addEventListener('click', () => {
-  // show dialog
-  const dialog = document.querySelector('dialog');
-  dialog.showModal();
-  // close dialog
-  dialog.querySelector('.modal-close').addEventListener('click', () => {
-    dialog.close();
-  });
-});
 
 // form validation
-
 const form = document.getElementById('contact-form');
 const email = document.getElementById('email');
 const warningMessage = document.getElementById('warning-message');
+const reg = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
+
 
 form.addEventListener('submit', (event) => {
-  if (email.value !== email.value.toLowerCase()) {
+  if (!reg.test(email.value)) {
     event.preventDefault();
     warningMessage.style.visibility = 'visible';
     warningMessage.innerHTML = 'Email must include only small letter';
@@ -199,11 +222,12 @@ function populateStorage() {
 usName.addEventListener('focusout', populateStorage);
 usEmail.addEventListener('focusout', populateStorage);
 usMessage.addEventListener('focusout', populateStorage);
-localStorage.clear();
 // Parse data from local storage
 const userDataObject = JSON.parse(localStorage.getItem('visitor'));
 
 // Refilling form inputs
-usName.value = userDataObject.userName;
+if(userDataObject){
+ usName.value = userDataObject.userName;
 usEmail.value = userDataObject.userEmail;
-usMessage.value = userDataObject.userMessage;
+ usMessage.value = userDataObject.userMessage;
+}
