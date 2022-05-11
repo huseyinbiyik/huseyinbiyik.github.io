@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://huseyinbiyik.github.io/portfolio/)
+[Live Demo Link](https://huseyinbiyik.github.io/huseyin-portfolio/)
 
 ## Getting Started
 
