@@ -81,7 +81,7 @@ const worksArray = [{
 
 // dynamic content function
 const portfolioContainer = document.getElementById('portfolio-works');
-for (let i = 0; i < worksArray.length; i + 1) {
+for (let i = 0; i < worksArray.length; i += 1) {
   portfolioContainer.innerHTML += ` <article class="portfolio-post work1">
  <div class="portfolio-image-container">    <img class="portfolio-work-image portfolio-img" src="${worksArray[i].portfolio_image}" alt="work section project image" />
  </div>
