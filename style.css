@@ -1045,15 +1045,18 @@ footer form {
   align-items: center;
 }
 
-.modal-button-container button {
+.modal-button-container a {
   width: auto;
   height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: var(--primary4);
+  background-color: var(--primary2);
+  padding: 12px;
 }
 
-.modal-button-container button img {
+.modal-button-container a img {
   margin-left: 16px;
 }
 
