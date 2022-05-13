@@ -20,68 +20,68 @@ for (let i = 0; i < navlinks.length; i += 1) {
 // Dynamic works section
 
 // objects
-let worksArray = [{
-    portfolio_image: 'assets/to-do-list.png',
-    portfolio_title: 'to-do-list',
-    portfolio_description: 'A minimalistic to do list app. You can add, delete and edit your tasks. Built with plain JavaScript.',
-    tech_tag1: 'HTML',
-    tech_tag2: 'CSS',
-    tech_tag3: 'JavaScript',
-    tech_tag4: 'Webpack',
-    button_text: 'See Project',
-    //modal data
-    modal_header: 'to-do-list',
-    modal_image: 'assets/to-do-list.png',
-    modal_text: 'A minimalistic to do list app. You can add, delete and edit your tasks. Built with plain JavaScript.',
-    first_modal_tag: 'HTML',
-    second_modal_tag: 'CSS',
-    third_modal_tag: 'JavaScript',
-    live_link: 'https://huseyinbiyik.github.io/to-do-list',
-    github_source: 'https://github.com/huseyinbiyik/to-do-list'
-  },
-  {
-    portfolio_image: 'assets/awesome-books.png',
-    portfolio_title: 'awesome-books',
-    portfolio_description: 'A web application which you can save and list your favourite books. Built with JavaScript',
-    tech_tag1: 'HTML',
-    tech_tag2: 'CSS',
-    tech_tag3: 'JavaScript',
-    tech_tag4: 'ES6',
-    button_text: 'See Project',
-    //modal data
-    modal_header: 'awesome-books',
-    modal_image: 'assets/awesome-books.png',
-    modal_text: 'A web application which you can save and list your favourite books. Built with JavaScript',
-    first_modal_tag: 'HTML',
-    second_modal_tag: 'CSS',
-    third_modal_tag: 'JavaScript',
-    live_link: 'https://huseyinbiyik.github.io/awesome-books',
-    github_source: 'https://github.com/huseyinbiyik/awesome-books'
-  },
-  {
-    portfolio_image: 'assets/world-tomato-forum.png',
-    portfolio_title: 'world-tomato-forum',
-    portfolio_description: ' First capstone project of Microverse. This project includes the website of the World Tomato Forum, which is a fake physical forum website.',
-    tech_tag1: 'HTML',
-    tech_tag2: 'CSS',
-    tech_tag3: 'JavaScript',
-    tech_tag4: 'SCSS',
-    button_text: 'See Project',
-    //modal data
-    modal_header: 'world-tomato-forum',
-    modal_image: 'assets/world-tomato-forum.png',
-    modal_text: 'First capstone project of Microverse. This project includes the website of the World Tomato Forum, which is a fake physical forum website..',
-    first_modal_tag: 'HTML',
-    second_modal_tag: 'CSS',
-    third_modal_tag: 'JavaScript',
-    live_link: 'https://huseyinbiyik.github.io/world-tomato-forum',
-    github_source: 'https://github.com/huseyinbiyik/world-tomato-forum'
-  }
-]
+const worksArray = [{
+  portfolio_image: 'assets/to-do-list.png',
+  portfolio_title: 'to-do-list',
+  portfolio_description: 'A minimalistic to do list app. You can add, delete and edit your tasks. Built with plain JavaScript.',
+  tech_tag1: 'HTML',
+  tech_tag2: 'CSS',
+  tech_tag3: 'JavaScript',
+  tech_tag4: 'Webpack',
+  button_text: 'See Project',
+  // modal data
+  modal_header: 'to-do-list',
+  modal_image: 'assets/to-do-list.png',
+  modal_text: 'A minimalistic to do list app. You can add, delete and edit your tasks. Built with plain JavaScript.',
+  first_modal_tag: 'HTML',
+  second_modal_tag: 'CSS',
+  third_modal_tag: 'JavaScript',
+  live_link: 'https://huseyinbiyik.github.io/to-do-list',
+  github_source: 'https://github.com/huseyinbiyik/to-do-list',
+},
+{
+  portfolio_image: 'assets/awesome-books.png',
+  portfolio_title: 'awesome-books',
+  portfolio_description: 'A web application which you can save and list your favourite books. Built with JavaScript',
+  tech_tag1: 'HTML',
+  tech_tag2: 'CSS',
+  tech_tag3: 'JavaScript',
+  tech_tag4: 'ES6',
+  button_text: 'See Project',
+  // modal data
+  modal_header: 'awesome-books',
+  modal_image: 'assets/awesome-books.png',
+  modal_text: 'A web application which you can save and list your favourite books. Built with JavaScript',
+  first_modal_tag: 'HTML',
+  second_modal_tag: 'CSS',
+  third_modal_tag: 'JavaScript',
+  live_link: 'https://huseyinbiyik.github.io/awesome-books',
+  github_source: 'https://github.com/huseyinbiyik/awesome-books',
+},
+{
+  portfolio_image: 'assets/world-tomato-forum.png',
+  portfolio_title: 'world-tomato-forum',
+  portfolio_description: ' First capstone project of Microverse. This project includes the website of the World Tomato Forum, which is a fake physical forum website.',
+  tech_tag1: 'HTML',
+  tech_tag2: 'CSS',
+  tech_tag3: 'JavaScript',
+  tech_tag4: 'SCSS',
+  button_text: 'See Project',
+  // modal data
+  modal_header: 'world-tomato-forum',
+  modal_image: 'assets/world-tomato-forum.png',
+  modal_text: 'First capstone project of Microverse. This project includes the website of the World Tomato Forum, which is a fake physical forum website..',
+  first_modal_tag: 'HTML',
+  second_modal_tag: 'CSS',
+  third_modal_tag: 'JavaScript',
+  live_link: 'https://huseyinbiyik.github.io/world-tomato-forum',
+  github_source: 'https://github.com/huseyinbiyik/world-tomato-forum',
+},
+];
 
 // dynamic content function
 const portfolioContainer = document.getElementById('portfolio-works');
-for (let i = 0; i < worksArray.length; i++) {
+for (let i = 0; i < worksArray.length; i + 1) {
   portfolioContainer.innerHTML += ` <article class="portfolio-post work1">
  <div class="portfolio-image-container">    <img class="portfolio-work-image portfolio-img" src="${worksArray[i].portfolio_image}" alt="work section project image" />
  </div>
@@ -112,12 +112,12 @@ for (let i = 0; i < worksArray.length; i++) {
 </article>`;
 }
 
-//creating dynamic modal
+// creating dynamic modal
 const projectBtns = document.querySelectorAll('.see-project-btn');
 projectBtns.forEach((element) => {
   element.addEventListener('click', () => {
-    let dialogBox = document.createElement('dialog');
-    dialogBox.classList.add('modal')
+    const dialogBox = document.createElement('dialog');
+    dialogBox.classList.add('modal');
     dialogBox.innerHTML = `
    <article class="portfolio-post modal1">
      <h3 class="modal-header">
@@ -156,28 +156,25 @@ ${worksArray[element.id].modal_header}
          <img src="assets/githubicon.svg" alt="" />
        </a> </div>
    </article>
-   `
+   `;
 
     document.body.appendChild(dialogBox);
     dialogBox.showModal();
-    //modal close
-    let modalCloseBtns = document.querySelectorAll(".modal-close");
+    // modal close
+    const modalCloseBtns = document.querySelectorAll('.modal-close');
     modalCloseBtns.forEach((el) => {
       el.addEventListener('click', () => {
         dialogBox.close();
-      })
-    })
-  })
-})
-
-
+      });
+    });
+  });
+});
 
 // form validation
 const form = document.getElementById('contact-form');
 const email = document.getElementById('email');
 const warningMessage = document.getElementById('warning-message');
 const reg = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
-
 
 form.addEventListener('submit', (event) => {
   if (!reg.test(email.value)) {
@@ -216,8 +213,8 @@ usMessage.addEventListener('focusout', populateStorage);
 const userDataObject = JSON.parse(localStorage.getItem('visitor'));
 
 // Refilling form inputs
-if(userDataObject){
- usName.value = userDataObject.userName;
-usEmail.value = userDataObject.userEmail;
- usMessage.value = userDataObject.userMessage;
+if (userDataObject) {
+  usName.value = userDataObject.userName;
+  usEmail.value = userDataObject.userEmail;
+  usMessage.value = userDataObject.userMessage;
 }
