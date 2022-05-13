@@ -21,71 +21,61 @@ for (let i = 0; i < navlinks.length; i += 1) {
 
 // objects
 let worksArray = [{
-    portfolio_image: 'assets/portfolio-image.jpeg',
-    portfolio_title: 'Multi-Post Stories',
-    portfolio_description: ' A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry \'s standard dummy text ever since the 1500 s, when an unknown printer took a standard dummy text.',
+    portfolio_image: 'assets/to-do-list.png',
+    portfolio_title: 'to-do-list',
+    portfolio_description: 'A minimalistic to do list app. You can add, delete and edit your tasks. Built with plain JavaScript.',
     tech_tag1: 'HTML',
     tech_tag2: 'CSS',
-    tech_tag3: 'bootstrap',
-    tech_tag4: 'Ruby',
+    tech_tag3: 'JavaScript',
+    tech_tag4: 'Webpack',
     button_text: 'See Project',
     //modal data
-    modal_header: 'Multi - Post Stories',
-    modal_image: 'assets/modal-photo-desktop.jpeg',
-    modal_text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
-    first_modal_tag: 'html',
-    second_modal_tag: 'Ruby on Rails',
-    third_modal_tag: 'css',
+    modal_header: 'to-do-list',
+    modal_image: 'assets/to-do-list.png',
+    modal_text: 'A minimalistic to do list app. You can add, delete and edit your tasks. Built with plain JavaScript.',
+    first_modal_tag: 'HTML',
+    second_modal_tag: 'CSS',
+    third_modal_tag: 'JavaScript',
+    live_link: 'https://huseyinbiyik.github.io/to-do-list',
+    github_source: 'https://github.com/huseyinbiyik/to-do-list'
   },
   {
-    portfolio_image: 'assets/portfolio-image.jpeg',
-    portfolio_title: 'Multi-Post Stories',
-    portfolio_description: ' A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry \'s standard dummy text ever since the 1500 s, when an unknown printer took a standard dummy text.',
+    portfolio_image: 'assets/awesome-books.png',
+    portfolio_title: 'awesome-books',
+    portfolio_description: 'A web application which you can save and list your favourite books. Built with JavaScript',
     tech_tag1: 'HTML',
     tech_tag2: 'CSS',
-    tech_tag3: 'bootstrap',
-    tech_tag4: 'Ruby',
+    tech_tag3: 'JavaScript',
+    tech_tag4: 'ES6',
     button_text: 'See Project',
     //modal data
-    modal_header: 'Multi - Post Stories2',
-    modal_image: 'assets/modal-photo-desktop.jpeg',
-    modal_text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
-    first_modal_tag: 'html',
-    second_modal_tag: 'Ruby on Rails',
-    third_modal_tag: 'css',
+    modal_header: 'awesome-books',
+    modal_image: 'assets/awesome-books.png',
+    modal_text: 'A web application which you can save and list your favourite books. Built with JavaScript',
+    first_modal_tag: 'HTML',
+    second_modal_tag: 'CSS',
+    third_modal_tag: 'JavaScript',
+    live_link: 'https://huseyinbiyik.github.io/awesome-books',
+    github_source: 'https://github.com/huseyinbiyik/awesome-books'
   },
   {
-    portfolio_image: 'assets/portfolio-image.jpeg',
-    portfolio_title: 'Multi-Post Stories',
-    portfolio_description: ' A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry \'s standard dummy text ever since the 1500 s, when an unknown printer took a standard dummy text.',
+    portfolio_image: 'assets/world-tomato-forum.png',
+    portfolio_title: 'world-tomato-forum',
+    portfolio_description: ' First capstone project of Microverse. This project includes the website of the World Tomato Forum, which is a fake physical forum website.',
     tech_tag1: 'HTML',
     tech_tag2: 'CSS',
-    tech_tag3: 'bootstrap',
-    tech_tag4: 'Ruby',
+    tech_tag3: 'JavaScript',
+    tech_tag4: 'SCSS',
     button_text: 'See Project',
     //modal data
-    modal_header: 'Multi - Post Stories',
-    modal_image: 'assets/modal-photo-desktop.jpeg',
-    modal_text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
-    first_modal_tag: 'html',
-    second_modal_tag: 'Ruby on Rails',
-    third_modal_tag: 'css',
-  }, {
-    portfolio_image: 'assets/portfolio-image.jpeg',
-    portfolio_title: 'Multi-Post Stories',
-    portfolio_description: ' A daily selection of privately personalized reads; no accounts or sign - ups required.has been the industry \'s standard dummy text ever since the 1500 s, when an unknown printer took a standard dummy text.',
-    tech_tag1: 'HTML',
-    tech_tag2: 'CSS',
-    tech_tag3: 'bootstrap',
-    tech_tag4: 'Ruby',
-    button_text: 'See Project',
-    //modal data
-    modal_header: 'Multi - Post Stories',
-    modal_image: 'assets/modal-photo-desktop.jpeg',
-    modal_text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.',
-    first_modal_tag: 'html',
-    second_modal_tag: 'Ruby on Rails',
-    third_modal_tag: 'css',
+    modal_header: 'world-tomato-forum',
+    modal_image: 'assets/world-tomato-forum.png',
+    modal_text: 'First capstone project of Microverse. This project includes the website of the World Tomato Forum, which is a fake physical forum website..',
+    first_modal_tag: 'HTML',
+    second_modal_tag: 'CSS',
+    third_modal_tag: 'JavaScript',
+    live_link: 'https://huseyinbiyik.github.io/world-tomato-forum',
+    github_source: 'https://github.com/huseyinbiyik/world-tomato-forum'
   }
 ]
 
@@ -158,13 +148,13 @@ ${worksArray[element.id].modal_header}
        </li>
      </ul>
      <div class="modal-button-container">
-       <button type="button">
+       <a href="${worksArray[element.id].live_link}">
          See Live
          <img src="assets/outerlink.svg" alt="" />
-       </button> <button type="button">
+       </a> <a href="${worksArray[element.id].github_source}">
          See Source
          <img src="assets/githubicon.svg" alt="" />
-       </button> </div>
+       </a> </div>
    </article>
    `
 
