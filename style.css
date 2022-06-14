@@ -847,7 +847,7 @@ footer form {
     text-align: left;
   }
 
-  #contact-form textarea:placeholder-shown{
+  #contact-form textarea:placeholder-shown {
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
