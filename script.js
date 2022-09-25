@@ -23,7 +23,7 @@ for (let i = 0; i < navlinks.length; i += 1) {
 const worksArray = [
   {
     portfolio_image: "assets/to-do-list.png",
-    portfolio_title: "to-do-list",
+    portfolio_title: "Minimalist",
     portfolio_description:
       "A minimalistic to do list app. You can add, delete and edit your tasks. Built with plain JavaScript.",
     tech_tag1: "HTML",
@@ -32,7 +32,21 @@ const worksArray = [
     tech_tag4: "Webpack",
     button_text: "See Project",
     // modal data
-    live_link: "https://huseyinbiyik.github.io/to-do-list",
+    live_link: "https://huseyinbiyik.github.io/minimalist/",
+    github_source: "https://github.com/huseyinbiyik/to-do-list",
+  },
+  {
+    portfolio_image: "assets/to-do-list.png",
+    portfolio_title: "Minimalist",
+    portfolio_description:
+      "A minimalistic to do list app. You can add, delete and edit your tasks. Built with plain JavaScript.",
+    tech_tag1: "HTML",
+    tech_tag2: "CSS",
+    tech_tag3: "JavaScript",
+    tech_tag4: "Webpack",
+    button_text: "See Project",
+    // modal data
+    live_link: "https://huseyinbiyik.github.io/minimalist/",
     github_source: "https://github.com/huseyinbiyik/to-do-list",
   },
   {
@@ -48,20 +62,6 @@ const worksArray = [
     // modal data
     live_link: "https://huseyinbiyik.github.io/awesome-books",
     github_source: "https://github.com/huseyinbiyik/awesome-books",
-  },
-  {
-    portfolio_image: "assets/world-tomato-forum.png",
-    portfolio_title: "world-tomato-forum",
-    portfolio_description:
-      " First capstone project of Microverse. This project includes the website of the World Tomato Forum, which is a fake physical forum website.",
-    tech_tag1: "HTML",
-    tech_tag2: "CSS",
-    tech_tag3: "JavaScript",
-    tech_tag4: "SCSS",
-    button_text: "See Project",
-    // modal data
-    live_link: "https://huseyinbiyik.github.io/world-tomato-forum",
-    github_source: "https://github.com/huseyinbiyik/world-tomato-forum",
   },
   {
     portfolio_image: "assets/bomberman-leaderboard.png",
@@ -124,20 +124,20 @@ projectBtns.forEach((element) => {
    <article class="portfolio-post modal1">
      <h3 class="modal-header">
 ${worksArray[element.id].portfolio_title}
-     </h3> 
+     </h3>
      <img src="assets/cancelicon.svg" class="modal-close">
-    
+
      <img class="modal-image" src="${
        worksArray[element.id].portfolio_image
      }" alt="" />
-     
+
      <p class="modal-text">
      ${worksArray[element.id].portfolio_description}
      </p>
      <ul class="modal-tags">
        <li>
-         <p class="modal-tech-tag-1 modal-long-desc"> 
-         ${worksArray[element.id].tech_tag1} 
+         <p class="modal-tech-tag-1 modal-long-desc">
+         ${worksArray[element.id].tech_tag1}
          </p>
        </li>
        <li>
