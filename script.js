@@ -22,18 +22,32 @@ for (let i = 0; i < navlinks.length; i += 1) {
 // objects
 const worksArray = [
   {
-    portfolio_image: "assets/to-do-list.png",
-    portfolio_title: "Minimalist",
+    portfolio_image: "assets/moneye.png",
+    portfolio_title: "Moneye",
     portfolio_description:
-      "A minimalistic to do list app. You can add, delete and edit your tasks. Built with plain JavaScript.",
-    tech_tag1: "HTML",
-    tech_tag2: "CSS",
-    tech_tag3: "JavaScript",
-    tech_tag4: "Webpack",
+      "A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
+    tech_tag1: "Ruby on Rails",
+    tech_tag2: "Ruby",
+    tech_tag3: "PostgreSQL",
+    tech_tag4: "CSS",
     button_text: "See Project",
     // modal data
-    live_link: "https://huseyinbiyik.github.io/minimalist/",
-    github_source: "https://github.com/huseyinbiyik/to-do-list",
+    live_link: "https://moneye-app.herokuapp.com/",
+    github_source: "https://github.com/huseyinbiyik/moneye",
+  },
+  {
+    portfolio_image: "assets/holidays-worldwide.png",
+    portfolio_title: "Holidays Worldwide",
+    portfolio_description:
+      "It is a Single Page Application which you can view holidays in 110 countries. You can use the search bar to find the country you would like to list its holidays.",
+    tech_tag1: "React",
+    tech_tag2: "Redux",
+    tech_tag3: "Redux-Thunk",
+    tech_tag4: "CSS",
+    button_text: "See Project",
+    // modal data
+    live_link: "https://huseyinbiyik.github.io/holidays-worldwide/",
+    github_source: "https://github.com/huseyinbiyik/holidays-worldwide",
   },
   {
     portfolio_image: "assets/to-do-list.png",
