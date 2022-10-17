@@ -1,18 +1,18 @@
 // Full page navigation menu
-const menuBtn = document.querySelector(".hamburger-menu");
-const mobileNav = document.querySelector(".nav-bar");
+const menuBtn = document.querySelector('.hamburger-menu');
+const mobileNav = document.querySelector('.nav-bar');
 
-menuBtn.addEventListener("click", () => {
-  mobileNav.classList.toggle("active");
-  document.body.classList.toggle("overflow-disabled");
+menuBtn.addEventListener('click', () => {
+  mobileNav.classList.toggle('active');
+  document.body.classList.toggle('overflow-disabled');
 });
 
-const navlinks = document.getElementsByClassName("link");
+const navlinks = document.getElementsByClassName('link');
 
 for (let i = 0; i < navlinks.length; i += 1) {
-  navlinks[i].addEventListener("click", () => {
-    mobileNav.classList.toggle("active");
-    document.body.classList.toggle("overflow-disabled");
+  navlinks[i].addEventListener('click', () => {
+    mobileNav.classList.toggle('active');
+    document.body.classList.toggle('overflow-disabled');
   });
 }
 // Full page navigation menu
@@ -22,84 +22,84 @@ for (let i = 0; i < navlinks.length; i += 1) {
 // objects
 const worksArray = [
   {
-    portfolio_image: "assets/moneye.png",
-    portfolio_title: "Moneye",
+    portfolio_image: 'assets/moneye.png',
+    portfolio_title: 'Moneye',
     portfolio_description:
-      "A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
-    tech_tag1: "Ruby on Rails",
-    tech_tag2: "Ruby",
-    tech_tag3: "PostgreSQL",
-    tech_tag4: "CSS",
-    button_text: "See Project",
+      'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    tech_tag1: 'Ruby on Rails',
+    tech_tag2: 'Ruby',
+    tech_tag3: 'PostgreSQL',
+    tech_tag4: 'CSS',
+    button_text: 'See Project',
     // modal data
-    live_link: "https://moneye-app.herokuapp.com/",
-    github_source: "https://github.com/huseyinbiyik/moneye",
+    live_link: 'https://moneye-app.herokuapp.com/',
+    github_source: 'https://github.com/huseyinbiyik/moneye',
   },
   {
-    portfolio_image: "assets/holidays-worldwide.png",
-    portfolio_title: "Holidays Worldwide",
+    portfolio_image: 'assets/holidays-worldwide.png',
+    portfolio_title: 'Holidays Worldwide',
     portfolio_description:
-      "It is a Single Page Application which you can view holidays in 110 countries. You can use the search bar to find the country you would like to list its holidays.",
-    tech_tag1: "React",
-    tech_tag2: "Redux",
-    tech_tag3: "Redux-Thunk",
-    tech_tag4: "CSS",
-    button_text: "See Project",
+      'It is a Single Page Application which you can view holidays in 110 countries. You can use the search bar to find the country you would like to list its holidays.',
+    tech_tag1: 'React',
+    tech_tag2: 'Redux',
+    tech_tag3: 'Redux-Thunk',
+    tech_tag4: 'CSS',
+    button_text: 'See Project',
     // modal data
-    live_link: "https://huseyinbiyik.github.io/holidays-worldwide/",
-    github_source: "https://github.com/huseyinbiyik/holidays-worldwide",
+    live_link: 'https://huseyinbiyik.github.io/holidays-worldwide/',
+    github_source: 'https://github.com/huseyinbiyik/holidays-worldwide',
   },
   {
-    portfolio_image: "assets/to-do-list.png",
-    portfolio_title: "Minimalist",
+    portfolio_image: 'assets/to-do-list.png',
+    portfolio_title: 'Minimalist',
     portfolio_description:
-      "A minimalistic to do list app. You can add, delete and edit your tasks. Built with plain JavaScript.",
-    tech_tag1: "HTML",
-    tech_tag2: "CSS",
-    tech_tag3: "JavaScript",
-    tech_tag4: "Webpack",
-    button_text: "See Project",
+      'A minimalistic to do list app. You can add, delete and edit your tasks. Built with plain JavaScript.',
+    tech_tag1: 'HTML',
+    tech_tag2: 'CSS',
+    tech_tag3: 'JavaScript',
+    tech_tag4: 'Webpack',
+    button_text: 'See Project',
     // modal data
-    live_link: "https://huseyinbiyik.github.io/minimalist/",
-    github_source: "https://github.com/huseyinbiyik/to-do-list",
+    live_link: 'https://huseyinbiyik.github.io/minimalist/',
+    github_source: 'https://github.com/huseyinbiyik/to-do-list',
   },
   {
-    portfolio_image: "assets/awesome-books.png",
-    portfolio_title: "awesome-books",
+    portfolio_image: 'assets/awesome-books.png',
+    portfolio_title: 'awesome-books',
     portfolio_description:
-      "A web application which you can save and list your favourite books. Built with JavaScript",
-    tech_tag1: "HTML",
-    tech_tag2: "CSS",
-    tech_tag3: "JavaScript",
-    tech_tag4: "ES6",
-    button_text: "See Project",
+      'A web application which you can save and list your favourite books. Built with JavaScript',
+    tech_tag1: 'HTML',
+    tech_tag2: 'CSS',
+    tech_tag3: 'JavaScript',
+    tech_tag4: 'ES6',
+    button_text: 'See Project',
     // modal data
-    live_link: "https://huseyinbiyik.github.io/awesome-books",
-    github_source: "https://github.com/huseyinbiyik/awesome-books",
+    live_link: 'https://huseyinbiyik.github.io/awesome-books',
+    github_source: 'https://github.com/huseyinbiyik/awesome-books',
   },
   {
-    portfolio_image: "assets/bomberman-leaderboard.png",
-    portfolio_title: "bomberman-leaderboard",
+    portfolio_image: 'assets/bomberman-leaderboard.png',
+    portfolio_title: 'bomberman-leaderboard',
     portfolio_description:
-      " bomberman leaderboard is an web app which you can add your best score on classic Bomberman Atari game. You can check all the other scores from the players all around the world!",
-    tech_tag1: "HTML",
-    tech_tag2: "CSS",
-    tech_tag3: "JavaScript",
-    tech_tag4: "Webpack",
-    button_text: "See Project",
+      ' bomberman leaderboard is an web app which you can add your best score on classic Bomberman Atari game. You can check all the other scores from the players all around the world!',
+    tech_tag1: 'HTML',
+    tech_tag2: 'CSS',
+    tech_tag3: 'JavaScript',
+    tech_tag4: 'Webpack',
+    button_text: 'See Project',
     // modal data
-    live_link: "https://huseyinbiyik.github.io/bomberman-leaderboard",
-    github_source: "https://github.com/huseyinbiyik/bomberman-leaderboard",
+    live_link: 'https://huseyinbiyik.github.io/bomberman-leaderboard',
+    github_source: 'https://github.com/huseyinbiyik/bomberman-leaderboard',
   },
 ];
 
 // dynamic content function
-const portfolioContainer = document.getElementById("portfolio-works");
+const portfolioContainer = document.getElementById('portfolio-works');
 for (let i = 0; i < worksArray.length; i += 1) {
   portfolioContainer.innerHTML += ` <article class="portfolio-post work1">
  <div class="portfolio-image-container">    <img class="portfolio-work-image portfolio-img" src="${
-   worksArray[i].portfolio_image
- }" alt="work section project image" />
+  worksArray[i].portfolio_image
+}" alt="work section project image" />
  </div>
  <div class="portfolio-description-section">
     <div class="portfolio-header">
@@ -129,11 +129,11 @@ for (let i = 0; i < worksArray.length; i += 1) {
 }
 
 // creating dynamic modal
-const projectBtns = document.querySelectorAll(".see-project-btn");
+const projectBtns = document.querySelectorAll('.see-project-btn');
 projectBtns.forEach((element) => {
-  element.addEventListener("click", () => {
-    const dialogBox = document.createElement("dialog");
-    dialogBox.classList.add("modal");
+  element.addEventListener('click', () => {
+    const dialogBox = document.createElement('dialog');
+    dialogBox.classList.add('modal');
     dialogBox.innerHTML = `
    <article class="portfolio-post modal1">
      <h3 class="modal-header">
@@ -142,8 +142,8 @@ ${worksArray[element.id].portfolio_title}
      <img src="assets/cancelicon.svg" class="modal-close">
 
      <img class="modal-image" src="${
-       worksArray[element.id].portfolio_image
-     }" alt="" />
+  worksArray[element.id].portfolio_image
+}" alt="" />
 
      <p class="modal-text">
      ${worksArray[element.id].portfolio_description}
@@ -184,9 +184,9 @@ ${worksArray[element.id].portfolio_title}
     document.body.appendChild(dialogBox);
     dialogBox.showModal();
     // modal close
-    const modalCloseBtns = document.querySelectorAll(".modal-close");
+    const modalCloseBtns = document.querySelectorAll('.modal-close');
     modalCloseBtns.forEach((el) => {
-      el.addEventListener("click", () => {
+      el.addEventListener('click', () => {
         dialogBox.close();
       });
     });
@@ -194,29 +194,29 @@ ${worksArray[element.id].portfolio_title}
 });
 
 // form validation
-const form = document.getElementById("contact-form");
-const email = document.getElementById("email");
-const warningMessage = document.getElementById("warning-message");
+const form = document.getElementById('contact-form');
+const email = document.getElementById('email');
+const warningMessage = document.getElementById('warning-message');
 const reg = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
 
-form.addEventListener("submit", (event) => {
+form.addEventListener('submit', (event) => {
   if (!reg.test(email.value)) {
     event.preventDefault();
-    warningMessage.style.visibility = "visible";
-    warningMessage.innerHTML = "Email must include only small letter";
-    warningMessage.style.color = "tomato";
+    warningMessage.style.visibility = 'visible';
+    warningMessage.innerHTML = 'Email must include only small letter';
+    warningMessage.style.color = 'tomato';
     setTimeout(() => {
-      warningMessage.style.visibility = "hidden";
+      warningMessage.style.visibility = 'hidden';
     }, 5000);
   } else {
-    warningMessage.style.visibility = "hidden";
+    warningMessage.style.visibility = 'hidden';
   }
 });
 
 // Local storage
-const usName = document.getElementById("name");
-const usEmail = document.getElementById("email");
-const usMessage = document.getElementById("msg");
+const usName = document.getElementById('name');
+const usEmail = document.getElementById('email');
+const usMessage = document.getElementById('msg');
 
 function populateStorage() {
   // create visitor object
@@ -225,15 +225,15 @@ function populateStorage() {
     userEmail: usEmail.value,
     userMessage: usMessage.value,
   };
-  localStorage.setItem("visitor", JSON.stringify(visitor));
+  localStorage.setItem('visitor', JSON.stringify(visitor));
 }
 
 // Trigger for populating local storage
-usName.addEventListener("focusout", populateStorage);
-usEmail.addEventListener("focusout", populateStorage);
-usMessage.addEventListener("focusout", populateStorage);
+usName.addEventListener('focusout', populateStorage);
+usEmail.addEventListener('focusout', populateStorage);
+usMessage.addEventListener('focusout', populateStorage);
 // Parse data from local storage
-const userDataObject = JSON.parse(localStorage.getItem("visitor"));
+const userDataObject = JSON.parse(localStorage.getItem('visitor'));
 
 // Refilling form inputs
 if (userDataObject) {
