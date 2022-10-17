@@ -19,7 +19,7 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-If you would like to use a terminal you can use git clone and my project link: git@github.com:huseyinbiyik/personal-portfolio.git
+If you would like to use a terminal you can use git clone and my project link: `git@github.com:huseyinbiyik/personal-portfolio.git`
 
 ### Prerequisites
 
@@ -27,7 +27,7 @@ Web Browser (Chrome,Safari,Mozilla,Edge)
 
 ### Install
 
-No need to install. Open the index.html file with a browser.
+No need to install. Open the `index.html` file with a browser.
 
 ### Usage
 
@@ -36,7 +36,6 @@ You can navigate through the page and see my personal portfolio.
 ### Deployment
 
 You can check the Github Pages link.
-
 
 
 ## Authors
