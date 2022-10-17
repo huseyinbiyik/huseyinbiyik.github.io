@@ -22,36 +22,36 @@ for (let i = 0; i < navlinks.length; i += 1) {
 // objects
 const worksArray = [
   {
-    portfolio_image: "assets/moneye.png",
-    portfolio_title: "Moneye",
+    portfolio_image: 'assets/moneye.png',
+    portfolio_title: 'Moneye',
     portfolio_description:
-      "A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
-    tech_tag1: "Ruby on Rails",
-    tech_tag2: "Ruby",
-    tech_tag3: "PostgreSQL",
-    tech_tag4: "CSS",
-    button_text: "See Project",
+      'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    tech_tag1: 'Ruby on Rails',
+    tech_tag2: 'Ruby',
+    tech_tag3: 'PostgreSQL',
+    tech_tag4: 'CSS',
+    button_text: 'See Project',
     // modal data
-    live_link: "https://moneye-app.herokuapp.com/",
-    github_source: "https://github.com/huseyinbiyik/moneye",
+    live_link: 'https://moneye-app.herokuapp.com/',
+    github_source: 'https://github.com/huseyinbiyik/moneye',
   },
   {
-    portfolio_image: "assets/holidays-worldwide.png",
-    portfolio_title: "Holidays Worldwide",
+    portfolio_image: 'assets/holidays-worldwide.png',
+    portfolio_title: 'Holidays Worldwide',
     portfolio_description:
-      "It is a Single Page Application which you can view holidays in 110 countries. You can use the search bar to find the country you would like to list its holidays.",
-    tech_tag1: "React",
-    tech_tag2: "Redux",
-    tech_tag3: "Redux-Thunk",
-    tech_tag4: "CSS",
-    button_text: "See Project",
+      'It is a Single Page Application which you can view holidays in 110 countries. You can use the search bar to find the country you would like to list its holidays.',
+    tech_tag1: 'React',
+    tech_tag2: 'Redux',
+    tech_tag3: 'Redux-Thunk',
+    tech_tag4: 'CSS',
+    button_text: 'See Project',
     // modal data
-    live_link: "https://huseyinbiyik.github.io/holidays-worldwide/",
-    github_source: "https://github.com/huseyinbiyik/holidays-worldwide",
+    live_link: 'https://huseyinbiyik.github.io/holidays-worldwide/',
+    github_source: 'https://github.com/huseyinbiyik/holidays-worldwide',
   },
   {
-    portfolio_image: "assets/to-do-list.png",
-    portfolio_title: "Minimalist",
+    portfolio_image: 'assets/to-do-list.png',
+    portfolio_title: 'Minimalist',
     portfolio_description:
       'A minimalistic to do list app. You can add, delete and edit your tasks. Built with plain JavaScript.',
     tech_tag1: 'HTML',
@@ -60,8 +60,8 @@ const worksArray = [
     tech_tag4: 'Webpack',
     button_text: 'See Project',
     // modal data
-    live_link: "https://huseyinbiyik.github.io/minimalist/",
-    github_source: "https://github.com/huseyinbiyik/minimalist",
+    live_link: 'https://huseyinbiyik.github.io/minimalist/',
+    github_source: 'https://github.com/huseyinbiyik/minimalist',
   },
   {
     portfolio_image: 'assets/awesome-books.png',
@@ -78,8 +78,8 @@ const worksArray = [
     github_source: 'https://github.com/huseyinbiyik/awesome-books',
   },
   {
-    portfolio_image: "assets/bomberman-leaderboard.png",
-    portfolio_title: "bomberman-leaderboard",
+    portfolio_image: 'assets/bomberman-leaderboard.png',
+    portfolio_title: 'bomberman-leaderboard',
     portfolio_description:
       ' bomberman leaderboard is an web app which you can add your best score on classic Bomberman Atari game. You can check all the other scores from the players all around the world!',
     tech_tag1: 'HTML',
@@ -142,8 +142,8 @@ ${worksArray[element.id].portfolio_title}
      <img src="assets/cancelicon.svg" class="modal-close">
 
      <img class="modal-image" src="${
-       worksArray[element.id].portfolio_image
-     }" alt="" />
+  worksArray[element.id].portfolio_image
+}" alt="" />
 
      <p class="modal-text">
      ${worksArray[element.id].portfolio_description}
