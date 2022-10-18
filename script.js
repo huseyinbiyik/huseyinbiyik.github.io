@@ -22,6 +22,20 @@ for (let i = 0; i < navlinks.length; i += 1) {
 // objects
 const worksArray = [
   {
+    portfolio_image: 'assets/suiteup.png',
+    portfolio_title: 'SuiteUp',
+    portfolio_description:
+      'SuiteUp is a project that simulates a hotel room booking system. It allows users to add, delete, book a room. API was built with Ruby on Rails and the front-end with React.js',
+    tech_tag1: 'Ruby on Rails',
+    tech_tag2: 'Ruby',
+    tech_tag3: 'PostgreSQL',
+    tech_tag4: 'Bootstrap',
+    button_text: 'See Project',
+    // modal data
+    live_link: 'https://hotel-room-frontend.vercel.app/',
+    github_source: 'https://github.com/huseyinbiyik/suiteup-api',
+  },
+  {
     portfolio_image: 'assets/moneye.png',
     portfolio_title: 'Moneye',
     portfolio_description:
@@ -64,24 +78,10 @@ const worksArray = [
     github_source: 'https://github.com/huseyinbiyik/minimalist',
   },
   {
-    portfolio_image: 'assets/awesome-books.png',
-    portfolio_title: 'awesome-books',
-    portfolio_description:
-      'A web application which you can save and list your favourite books. Built with JavaScript',
-    tech_tag1: 'HTML',
-    tech_tag2: 'CSS',
-    tech_tag3: 'JavaScript',
-    tech_tag4: 'ES6',
-    button_text: 'See Project',
-    // modal data
-    live_link: 'https://huseyinbiyik.github.io/awesome-books',
-    github_source: 'https://github.com/huseyinbiyik/awesome-books',
-  },
-  {
     portfolio_image: 'assets/bomberman-leaderboard.png',
-    portfolio_title: 'bomberman-leaderboard',
+    portfolio_title: 'Bomberman Leaderboard',
     portfolio_description:
-      ' bomberman leaderboard is an web app which you can add your best score on classic Bomberman Atari game. You can check all the other scores from the players all around the world!',
+      ' Bomberman Leaderboard is an web app which you can add your best score on classic Bomberman Atari game. You can check all the other scores from the players all around the world!',
     tech_tag1: 'HTML',
     tech_tag2: 'CSS',
     tech_tag3: 'JavaScript',
