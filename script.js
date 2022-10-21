@@ -7,10 +7,10 @@ menuBtn.addEventListener('click', () => {
   document.body.classList.toggle('overflow-disabled');
 });
 
-const navlinks = document.getElementsByClassName('link');
+const navLinks = document.getElementsByClassName('link');
 
-for (let i = 0; i < navlinks.length; i += 1) {
-  navlinks[i].addEventListener('click', () => {
+for (let i = 0; i < navLinks.length; i += 1) {
+  navLinks[i].addEventListener('click', () => {
     mobileNav.classList.toggle('active');
     document.body.classList.toggle('overflow-disabled');
   });
@@ -18,7 +18,6 @@ for (let i = 0; i < navlinks.length; i += 1) {
 // Full page navigation menu
 
 // Dynamic works section
-
 // objects
 const worksArray = [
   {
@@ -129,8 +128,8 @@ for (let i = 0; i < worksArray.length; i += 1) {
 }
 
 // creating dynamic modal
-const projectBtns = document.querySelectorAll('.see-project-btn');
-projectBtns.forEach((element) => {
+const projectButtons = document.querySelectorAll('.see-project-btn');
+projectButtons.forEach((element) => {
   element.addEventListener('click', () => {
     const dialogBox = document.createElement('dialog');
     dialogBox.classList.add('modal');
@@ -184,8 +183,8 @@ ${worksArray[element.id].portfolio_title}
     document.body.appendChild(dialogBox);
     dialogBox.showModal();
     // modal close
-    const modalCloseBtns = document.querySelectorAll('.modal-close');
-    modalCloseBtns.forEach((el) => {
+    const modelCloseButtons = document.querySelectorAll('.modal-close');
+    modelCloseButtons.forEach((el) => {
       el.addEventListener('click', () => {
         dialogBox.close();
       });
@@ -197,10 +196,10 @@ ${worksArray[element.id].portfolio_title}
 const form = document.getElementById('contact-form');
 const email = document.getElementById('email');
 const warningMessage = document.getElementById('warning-message');
-const reg = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
+const mailRegExp = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
 
 form.addEventListener('submit', (event) => {
-  if (!reg.test(email.value)) {
+  if (!mailRegExp.test(email.value)) {
     event.preventDefault();
     warningMessage.style.visibility = 'visible';
     warningMessage.innerHTML = 'Email must include only small letter';
@@ -214,30 +213,30 @@ form.addEventListener('submit', (event) => {
 });
 
 // Local storage
-const usName = document.getElementById('name');
-const usEmail = document.getElementById('email');
-const usMessage = document.getElementById('msg');
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('email');
+const messageInput = document.getElementById('msg');
 
 function populateStorage() {
   // create visitor object
   const visitor = {
-    userName: usName.value,
-    userEmail: usEmail.value,
-    userMessage: usMessage.value,
+    userName: nameInput.value,
+    userEmail: emailInput.value,
+    userMessage: messageInput.value,
   };
   localStorage.setItem('visitor', JSON.stringify(visitor));
 }
 
 // Trigger for populating local storage
-usName.addEventListener('focusout', populateStorage);
-usEmail.addEventListener('focusout', populateStorage);
-usMessage.addEventListener('focusout', populateStorage);
+nameInput.addEventListener('focusout', populateStorage);
+emailInput.addEventListener('focusout', populateStorage);
+messageInput.addEventListener('focusout', populateStorage);
 // Parse data from local storage
 const userDataObject = JSON.parse(localStorage.getItem('visitor'));
 
 // Refilling form inputs
 if (userDataObject) {
-  usName.value = userDataObject.userName;
-  usEmail.value = userDataObject.userEmail;
-  usMessage.value = userDataObject.userMessage;
+  nameInput.value = userDataObject.userName;
+  emailInput.value = userDataObject.userEmail;
+  messageInput.value = userDataObject.userMessage;
 }
