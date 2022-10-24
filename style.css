@@ -502,6 +502,10 @@ footer form {
   margin-top: 40px;
   margin-bottom: 71px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #contact-submit {
@@ -856,7 +860,7 @@ footer form {
   }
 
   #contact-form .submit-button {
-    margin-top: 89px;
+    margin-top: 40px;
     margin-bottom: 106px;
   }
 
@@ -1080,4 +1084,8 @@ footer form {
     justify-content: center;
     gap: 78px;
   }
+}
+
+#warning-message {
+  margin-top: 20px;
 }
