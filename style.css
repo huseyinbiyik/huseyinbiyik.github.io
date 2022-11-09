@@ -1,5 +1,5 @@
-@import url("clash-display.css");
-@import url("switzer.css");
+@import url("/css/clash-display.css");
+@import url("/css/switzer.css");
 
 :root {
   --light: #d9cead;
@@ -757,7 +757,9 @@ footer form {
     padding-left: 24px;
   }
 
-  #portfolio-works .portfolio-post:nth-child(even) .portfolio-description-section {
+  #portfolio-works
+    .portfolio-post:nth-child(even)
+    .portfolio-description-section {
     padding-left: 0;
     padding-right: 24px;
   }
