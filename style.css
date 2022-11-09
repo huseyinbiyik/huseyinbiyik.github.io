@@ -2,17 +2,9 @@
 @import url("switzer.css");
 
 :root {
-  --primary1: #5e42d7;
-  --primary2: #7d73fc;
-  --primary3: #9490ff;
-  --primary4: #edecff;
-  --neutral: #fff;
-  --neutral-2: #2a2b33;
-  --neutral-5: #81818c;
-  --neutral-7: #c8c8d4;
-  --neutral-8: #dcdce8;
-  --neutral-9: #eaeaf6;
-  --neutral-10: #f5f5ff;
+  --light: #d9cead;
+  --dark: #0a1f33;
+  --accent: #ac0000;
 
   scroll-behavior: smooth;
 }
@@ -23,6 +15,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--dark);
 }
 
 html {
@@ -32,7 +25,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #191765;
+  background-color: var(--light);
 }
 
 header,
@@ -68,7 +61,7 @@ main {
 }
 
 .logo-container p {
-  color: #fff;
+  color: var(--dark);
   font-size: 18px;
   line-height: 16px;
   font-weight: 500;
@@ -122,7 +115,7 @@ nav {
   font-size: 48px;
   font-weight: 700;
   line-height: 72px;
-  color: #7d73fc;
+  color: var(--dark);
   margin: 0;
 }
 
@@ -132,7 +125,7 @@ nav {
   font-size: 32px;
   font-weight: 500;
   line-height: 44px;
-  color: #edecff;
+  color: var(--accent);
   vertical-align: middle;
 }
 
@@ -146,7 +139,7 @@ nav {
 .description-text p {
   font-size: 20px;
   line-height: 28px;
-  color: #c8c8d4;
+  color: var(--dark);
   font-family: "Switzer-Variable", sans-serif;
 }
 
@@ -156,7 +149,7 @@ nav {
   margin-top: 33px;
   margin-bottom: 0;
   height: 1px;
-  background-color: #646369;
+  background-color: var(--dark);
   border-width: 0;
 }
 
@@ -185,7 +178,7 @@ nav {
   font-size: 12px;
   font-weight: 500;
   line-height: 24px;
-  color: #9490ff;
+  color: var(--accent);
   padding-left: 0;
   margin-bottom: 25px;
   margin-top: 0;
@@ -209,7 +202,7 @@ nav {
 .feature-container p {
   font-size: 15px;
   line-height: 24px;
-  color: #f5f5ff;
+  color: var(--dark);
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -271,7 +264,7 @@ nav {
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
-  color: #a2a3ae;
+  color: var(--dark);
 }
 
 /* Works Section Begins */
@@ -291,7 +284,7 @@ nav {
   text-transform: uppercase;
   font-weight: 500;
   display: inline;
-  color: var(--primary3);
+  color: var(--dark);
 }
 
 #works-section {
@@ -339,14 +332,14 @@ nav {
   font-size: 32px;
   font-weight: 500;
   line-height: 44px;
-  color: var(--neutral);
+  color: var(--accent);
 }
 
 .portfolio-works .descriptive-text {
   font-size: 20px;
   font-family: "Switzer-Variable", sans-serif;
   line-height: 28px;
-  color: var(--neutral-8);
+  color: var(--dark);
   text-align: left;
   margin-top: 24px;
   margin-bottom: 0;
@@ -385,7 +378,7 @@ nav {
 }
 
 .portfolio-description-section li > p {
-  color: var(--neutral);
+  color: var(--dark);
   padding-right: 20px;
   font-size: 15px;
   font-weight: 500;
@@ -393,21 +386,17 @@ nav {
 }
 
 .logo-container p:hover {
-  color: #5e42d7;
+  color: var(--accent);
 }
 
 button {
   margin-top: 24px;
   justify-self: flex-start;
-  width: 89px;
-  height: 48px;
   padding: 12px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  border: none;
-  color: var(--primary4);
-  background-color: var(--primary2);
+  border: 1px solid var(--dark);
 }
 
 button:enabled {
