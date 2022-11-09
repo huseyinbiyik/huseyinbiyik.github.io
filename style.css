@@ -83,7 +83,7 @@ nav {
 }
 
 .hamburger-menu > span {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid var(--accent);
   width: 100%;
   display: block;
 }
@@ -107,7 +107,7 @@ nav {
 }
 
 .tagline-container h1 {
-  font-family: "Switzer-Variable", sans-serif;
+  font-family: "ClashDisplay-Variable", sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 72px;
@@ -171,6 +171,7 @@ nav {
 }
 
 .feature-container h3 {
+  font-family: "ClashDisplay-Variable", sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 24px;
@@ -526,10 +527,6 @@ footer form {
 
 @media only screen and (min-width: 768px) {
   .hamburger-menu {
-    display: none;
-  }
-
-  .menu-list li img {
     display: none;
   }
 
