@@ -27,7 +27,6 @@ a {
 
 html {
   font-family: "Switzer-Variable", sans-serif;
-  font-family: "ClashDisplay-Variable", sans-serif;
 }
 
 body {
@@ -119,6 +118,7 @@ nav {
 }
 
 .tagline-container h1 {
+  font-family: "Switzer-Variable", sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 72px;
@@ -145,9 +145,9 @@ nav {
 
 .description-text p {
   font-size: 20px;
-  font-weight: 400;
   line-height: 28px;
   color: #c8c8d4;
+  font-family: "Switzer-Variable", sans-serif;
 }
 
 .main-separator {
@@ -285,6 +285,7 @@ nav {
 }
 
 .works-header-wrapper h2 {
+  font-family: "ClashDisplay-Variable", sans-serif;
   font-size: 40px;
   line-height: 52px;
   text-transform: uppercase;
@@ -334,6 +335,7 @@ nav {
 }
 
 .portfolio-header h3 {
+  font-family: "ClashDisplay-Variable", sans-serif;
   font-size: 32px;
   font-weight: 500;
   line-height: 44px;
@@ -342,6 +344,7 @@ nav {
 
 .portfolio-works .descriptive-text {
   font-size: 20px;
+  font-family: "Switzer-Variable", sans-serif;
   line-height: 28px;
   color: var(--neutral-8);
   text-align: left;
@@ -443,6 +446,7 @@ footer {
 }
 
 #contact-form-heading {
+  font-family: "ClashDisplay-Variable", sans-serif;
   font-size: 32px;
   line-height: 44px;
   font-weight: 500;
@@ -453,6 +457,7 @@ footer {
 
 #contact-form-text {
   color: var(--neutral-10);
+  font-family: "Switzer-Variable", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -643,8 +648,8 @@ footer form {
 
   .primary-text-container h1 {
     font-size: 90px;
-    font-style: normal;
-    font-weight: 700;
+    font-family: "ClashDisplay-Variable", sans-serif;
+    font-weight: 600;
     line-height: 105px;
     text-align: center;
     display: block;
@@ -663,14 +668,13 @@ footer form {
   }
 
   .description-text {
-    margin: 88px 0 0 0;
     width: 100%;
     display: flex;
     justify-content: center;
   }
 
   .description-text p {
-    max-width: 447px;
+    max-width: 500px;
     height: 155px;
     margin: 0;
     font-size: 20px;
@@ -698,6 +702,7 @@ footer form {
   }
 
   .feature-container h3 {
+    font-family: "ClashDisplay-Variable", sans-serif;
     margin: 5.33px 8px 24.5px;
     font-size: 18px;
     font-style: normal;
