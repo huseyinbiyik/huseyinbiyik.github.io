@@ -172,11 +172,13 @@ ${worksArray[element.id].portfolio_title}
      <div class="modal-button-container">
        <a href="${worksArray[element.id].live_link}">
          See Live
-         <img src="assets/outerlink.svg" alt="" />
-       </a> <a href="${worksArray[element.id].github_source}">
+         <img src="assets/arrow-right-solid.svg" alt="" />
+       </a>
+       <a href="${worksArray[element.id].github_source}">
          See Source
-         <img src="assets/githubicon.svg" alt="" />
-       </a> </div>
+         <img src="assets/github.svg" alt="" />
+       </a>
+       </div>
    </article>
    `;
 

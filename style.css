@@ -1005,11 +1005,13 @@ footer form {
 
 .modal-button-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 }
 
 .modal-button-container a {
+  border: 1px solid var(--dark);
   width: auto;
   height: auto;
   display: flex;
@@ -1022,6 +1024,13 @@ footer form {
 
 .modal-button-container a img {
   margin-left: 16px;
+  width: 20px;
+  height: auto;
+}
+
+.modal-button-container a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 /* modal responsive */
