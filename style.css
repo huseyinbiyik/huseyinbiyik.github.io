@@ -39,12 +39,6 @@ header {
   width: 100%;
 }
 
-main {
-  background-image: url(assets/background-circles.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
 .menu-container {
   height: 48px;
   display: flex;
@@ -418,13 +412,6 @@ button:active {
 button:disabled {
   background-color: var(--neutral-2);
   color: var(--neutral-7);
-}
-
-.background-container {
-  background-image: url(assets/background-shapes.png);
-  background-position-y: 121.22px;
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 footer {
@@ -888,14 +875,6 @@ footer form {
   #last-line {
     display: none;
   }
-
-  main {
-    background-image: url(assets/desktop\ two\ circles\ header.png);
-  }
-
-  .background-container {
-    background-image: url(assets/desktop-work-section-shapes.png);
-  }
 }
 
 /* mobile navigation */
@@ -908,9 +887,6 @@ footer form {
     height: 100vh;
     width: 100vw;
     background-color: #191765;
-    background-image: url(./assets/mobilenavbg.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .active .menu-list {
