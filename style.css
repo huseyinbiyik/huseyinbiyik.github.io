@@ -1,17 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("clash-display.css");
+@import url("switzer.css");
 
 :root {
-  --primary1: #5e42d7;
-  --primary2: #7d73fc;
-  --primary3: #9490ff;
-  --primary4: #edecff;
-  --neutral: #fff;
-  --neutral-2: #2a2b33;
-  --neutral-5: #81818c;
-  --neutral-7: #c8c8d4;
-  --neutral-8: #dcdce8;
-  --neutral-9: #eaeaf6;
-  --neutral-10: #f5f5ff;
+  --light: #d9cead;
+  --dark: #0a1f33;
+  --accent: #ac0000;
 
   scroll-behavior: smooth;
 }
@@ -22,17 +15,17 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--dark);
 }
 
 html {
-  font-family: "Inter", sans-serif;
+  font-family: "Switzer-Variable", sans-serif;
 }
 
 body {
-  font-family: Roboto, "Lucida Grande", Tahoma, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #191765;
+  background-color: var(--light);
 }
 
 header,
@@ -44,12 +37,6 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-}
-
-main {
-  background-image: url(assets/background-circles.svg);
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .menu-container {
@@ -68,11 +55,13 @@ main {
 }
 
 .logo-container p {
-  color: #fff;
+  color: var(--dark);
   font-size: 18px;
   line-height: 16px;
   font-weight: 500;
   margin: 0;
+  text-shadow: 1px 1px var(--accent);
+  text-decoration: overline;
 }
 
 nav {
@@ -94,7 +83,7 @@ nav {
 }
 
 .hamburger-menu > span {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid var(--accent);
   width: 100%;
   display: block;
 }
@@ -118,10 +107,11 @@ nav {
 }
 
 .tagline-container h1 {
+  font-family: "ClashDisplay-Variable", sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 72px;
-  color: #7d73fc;
+  color: var(--dark);
   margin: 0;
 }
 
@@ -131,22 +121,21 @@ nav {
   font-size: 32px;
   font-weight: 500;
   line-height: 44px;
-  color: #edecff;
+  color: var(--accent);
   vertical-align: middle;
 }
 
 .description-text {
-  margin-top: 40px;
-  margin-right: 24px;
-  margin-left: 24px;
+  margin-top: 30px;
   text-align: center;
 }
 
 .description-text p {
+  margin: 0 10px 0 10px;
   font-size: 20px;
-  font-weight: 400;
   line-height: 28px;
-  color: #c8c8d4;
+  color: var(--dark);
+  font-family: "Switzer-Variable", sans-serif;
 }
 
 .main-separator {
@@ -155,7 +144,7 @@ nav {
   margin-top: 33px;
   margin-bottom: 0;
   height: 1px;
-  background-color: #646369;
+  background-color: var(--dark);
   border-width: 0;
 }
 
@@ -181,10 +170,11 @@ nav {
 }
 
 .feature-container h3 {
+  font-family: "ClashDisplay-Variable", sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 24px;
-  color: #9490ff;
+  color: var(--accent);
   padding-left: 0;
   margin-bottom: 25px;
   margin-top: 0;
@@ -208,7 +198,7 @@ nav {
 .feature-container p {
   font-size: 15px;
   line-height: 24px;
-  color: #f5f5ff;
+  color: var(--dark);
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -270,7 +260,7 @@ nav {
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
-  color: #a2a3ae;
+  color: var(--dark);
 }
 
 /* Works Section Begins */
@@ -284,12 +274,13 @@ nav {
 }
 
 .works-header-wrapper h2 {
+  font-family: "ClashDisplay-Variable", sans-serif;
   font-size: 40px;
   line-height: 52px;
   text-transform: uppercase;
   font-weight: 500;
   display: inline;
-  color: var(--primary3);
+  color: var(--dark);
 }
 
 #works-section {
@@ -333,16 +324,18 @@ nav {
 }
 
 .portfolio-header h3 {
+  font-family: "ClashDisplay-Variable", sans-serif;
   font-size: 32px;
   font-weight: 500;
   line-height: 44px;
-  color: var(--neutral);
+  color: var(--accent);
 }
 
 .portfolio-works .descriptive-text {
   font-size: 20px;
+  font-family: "Switzer-Variable", sans-serif;
   line-height: 28px;
-  color: var(--neutral-8);
+  color: var(--dark);
   text-align: left;
   margin-top: 24px;
   margin-bottom: 0;
@@ -363,7 +356,6 @@ nav {
 
 .portfolio-description-section ul {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   padding: 0;
   margin: 0;
@@ -374,6 +366,7 @@ nav {
   list-style-type: none;
   border-right: 1px solid #555;
   height: 100%;
+  padding: 0 1vw;
 }
 
 .portfolio-description-section ul > li:last-child {
@@ -381,57 +374,33 @@ nav {
 }
 
 .portfolio-description-section li > p {
-  color: var(--neutral);
-  padding-right: 20px;
+  color: var(--dark);
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
 }
 
 .logo-container p:hover {
-  color: #5e42d7;
+  color: var(--accent);
 }
 
 button {
   margin-top: 24px;
   justify-self: flex-start;
-  width: 89px;
-  height: 48px;
   padding: 12px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  border: none;
-  color: var(--primary4);
-  background-color: var(--primary2);
+  border: 1px solid var(--dark);
 }
 
 button:enabled {
-  color: var(--primary4);
-  background-color: var(--primary2);
+  background-color: transparent;
 }
 
 button:hover {
-  color: var(--neutral);
-  background-color: var(--primary2);
-  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
-}
-
-button:active {
-  background-color: var(--primary1);
-  color: var(--neutral-9);
-}
-
-button:disabled {
-  background-color: var(--neutral-2);
-  color: var(--neutral-7);
-}
-
-.background-container {
-  background-image: url(assets/background-shapes.png);
-  background-position-y: 121.22px;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  color: var(--accent);
+  border-color: var(--accent);
 }
 
 footer {
@@ -442,16 +411,17 @@ footer {
 }
 
 #contact-form-heading {
+  font-family: "ClashDisplay-Variable", sans-serif;
   font-size: 32px;
   line-height: 44px;
   font-weight: 500;
-  color: #9390ff;
   margin-top: 120px;
   margin-bottom: 24px;
+  color: var(--accent);
 }
 
 #contact-form-text {
-  color: var(--neutral-10);
+  font-family: "Switzer-Variable", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -480,7 +450,6 @@ footer form {
   height: 48px;
   padding: 15px 16px;
   font-size: 15px;
-  color: var(--neutral-5);
 }
 
 #contact-form textarea {
@@ -488,14 +457,21 @@ footer form {
   height: 148px;
   width: 100%;
   padding: 12px;
-  color: var(--neutral-5);
+}
+
+#contact-form ul li textarea {
+  font-family: "Switzer", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
 }
 
 #contact-form textarea:placeholder-shown {
-  font-family: Inter, sans-serif;
+  font-family: "Switzer-Variable", sans-serif;
   font-size: 15px;
   line-height: 24px;
-  color: var(--neutral-5);
 }
 
 #contact-form .submit-button {
@@ -516,7 +492,7 @@ footer form {
   margin-top: 0;
   margin-bottom: 25px;
   width: 100%;
-  border-top-color: #3a3837;
+  border-top-color: var(--dark);
   border-width: 1px 0 0 0;
   border-top-style: solid;
 }
@@ -529,14 +505,13 @@ footer form {
 
 #send-email {
   text-decoration: none;
-  color: #ebebff;
+  color: var(--dark);
   margin-top: 9px;
   padding-bottom: 27px;
 }
 
 #last-line {
   width: 40%;
-  border-top-color: #0d141e;
   border-width: 13px 0 0 0;
   border-top-style: solid;
   border-radius: 5px;
@@ -559,10 +534,6 @@ footer form {
 
 @media only screen and (min-width: 768px) {
   .hamburger-menu {
-    display: none;
-  }
-
-  .menu-list li img {
     display: none;
   }
 
@@ -605,6 +576,7 @@ footer form {
 
   .menu-list li:hover {
     text-decoration: underline;
+    text-shadow: 1px 1px var(--accent);
   }
 
   .menu-list li:last-child {
@@ -617,7 +589,6 @@ footer form {
     font-weight: 500;
     line-height: 20px;
     text-align: center;
-    color: var(--neutral);
   }
 
   #email-icon {
@@ -642,8 +613,8 @@ footer form {
 
   .primary-text-container h1 {
     font-size: 90px;
-    font-style: normal;
-    font-weight: 700;
+    font-family: "ClashDisplay-Variable", sans-serif;
+    font-weight: 600;
     line-height: 105px;
     text-align: center;
     display: block;
@@ -662,16 +633,14 @@ footer form {
   }
 
   .description-text {
-    margin: 88px 0 0 0;
     width: 100%;
     display: flex;
     justify-content: center;
   }
 
   .description-text p {
-    max-width: 447px;
-    height: 155px;
-    margin: 0;
+    max-width: 500px;
+    margin: 0 10px 0 10px;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -697,6 +666,7 @@ footer form {
   }
 
   .feature-container h3 {
+    font-family: "ClashDisplay-Variable", sans-serif;
     margin: 5.33px 8px 24.5px;
     font-size: 18px;
     font-style: normal;
@@ -851,7 +821,17 @@ footer form {
     text-align: left;
   }
 
+  #contact-form ul li textarea {
+    font-family: "Switzer", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
+
   #contact-form textarea:placeholder-shown {
+    font-family: "Switzer-Variable", sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
@@ -891,14 +871,6 @@ footer form {
   #last-line {
     display: none;
   }
-
-  main {
-    background-image: url(assets/desktop\ two\ circles\ header.png);
-  }
-
-  .background-container {
-    background-image: url(assets/desktop-work-section-shapes.png);
-  }
 }
 
 /* mobile navigation */
@@ -910,10 +882,7 @@ footer form {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background-color: #191765;
-    background-image: url(./assets/mobilenavbg.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to bottom, var(--dark), var(--light));
   }
 
   .active .menu-list {
@@ -936,7 +905,7 @@ footer form {
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
-    color: var(--primary4);
+    color: var(--light);
   }
 
   .active .menu-list li img {
@@ -948,8 +917,8 @@ footer form {
     position: absolute;
     top: 16px;
     right: 38px;
-    width: 14px;
-    height: 14px;
+    width: 16px;
+    height: 16px;
   }
 
   .active .hamburger-menu span:nth-child(1) {
@@ -976,7 +945,7 @@ footer form {
 
 /* Modal styling */
 .modal {
-  margin: 10px 24px;
+  margin: 0;
   padding: 24px;
   border: 1px solid #fff;
   background: rgba(255, 255, 255, 0.16);
@@ -986,23 +955,28 @@ footer form {
 }
 
 .modal::backdrop {
-  background-color: #100f45;
+  background-color: var(--dark);
   opacity: 0.9;
 }
 
 .modal-close {
   position: absolute;
-  top: 38px;
+  top: 20px;
   right: 39px;
+  border: 1px solid var(--accent);
+  padding: 5px;
+  border-radius: 50%;
+  background-color: var(--accent);
 }
 
 .modal-header {
+  font-family: "ClashDisplay-Variable", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
   letter-spacing: 0;
   text-align: left;
-  color: #fff;
+  color: var(--dark);
   margin-bottom: 24px;
 }
 
@@ -1017,7 +991,7 @@ footer form {
   line-height: 24px;
   letter-spacing: 0;
   text-align: center;
-  color: #fff;
+  color: var(--dark);
 }
 
 .modal .modal-tags {
@@ -1034,7 +1008,7 @@ footer form {
   line-height: 20px;
   letter-spacing: 0;
   text-align: left;
-  color: #fff;
+  color: var(--dark);
   padding: 14px;
   border-right: 1px solid #81818c;
 }
@@ -1045,23 +1019,32 @@ footer form {
 
 .modal-button-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 }
 
 .modal-button-container a {
+  border: 1px solid var(--dark);
   width: auto;
   height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--primary4);
-  background-color: var(--primary2);
+  color: var(--dark);
+  background-color: transparent;
   padding: 12px;
 }
 
 .modal-button-container a img {
   margin-left: 16px;
+  width: 20px;
+  height: auto;
+}
+
+.modal-button-container a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 /* modal responsive */
