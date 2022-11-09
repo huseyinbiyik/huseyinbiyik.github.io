@@ -60,6 +60,8 @@ header {
   line-height: 16px;
   font-weight: 500;
   margin: 0;
+  text-shadow: 1px 1px var(--accent);
+  text-decoration: overline;
 }
 
 nav {
@@ -399,9 +401,8 @@ button:enabled {
 }
 
 button:hover {
-  color: var(--neutral);
-  background-color: var(--primary2);
-  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  color: var(--accent);
+  border-color: var(--accent);
 }
 
 button:active {
@@ -587,6 +588,7 @@ footer form {
 
   .menu-list li:hover {
     text-decoration: underline;
+    text-shadow: 1px 1px var(--accent);
   }
 
   .menu-list li:last-child {
