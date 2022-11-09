@@ -35,7 +35,7 @@
     "**/bootstrap*.css",
     "**/*.js",
     "**/*.jsx ",
-    "switzer.css",
-    "clash-display.css"
+    "./css/switzer.css",
+    "./css/clash-display.css"
   ]
 }
