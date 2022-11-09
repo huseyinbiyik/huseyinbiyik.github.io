@@ -919,8 +919,8 @@ footer form {
     position: absolute;
     top: 16px;
     right: 38px;
-    width: 14px;
-    height: 14px;
+    width: 16px;
+    height: 16px;
   }
 
   .active .hamburger-menu span:nth-child(1) {
@@ -963,7 +963,7 @@ footer form {
 
 .modal-close {
   position: absolute;
-  top: 38px;
+  top: 20px;
   right: 39px;
   border: 1px solid var(--accent);
   padding: 5px;
