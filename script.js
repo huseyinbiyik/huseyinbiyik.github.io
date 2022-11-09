@@ -170,11 +170,11 @@ ${worksArray[element.id].portfolio_title}
        </li>
      </ul>
      <div class="modal-button-container">
-       <a href="${worksArray[element.id].live_link}">
+       <a href="${worksArray[element.id].live_link}" target="_blank">
          See Live
          <img src="assets/arrow-right-solid.svg" alt="" />
        </a>
-       <a href="${worksArray[element.id].github_source}">
+       <a href="${worksArray[element.id].github_source}" target="_blank">
          See Source
          <img src="assets/github.svg" alt="" />
        </a>

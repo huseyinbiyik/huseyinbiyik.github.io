@@ -1,5 +1,5 @@
-@import url("clash-display.css");
-@import url("switzer.css");
+@import url("/css/clash-display.css");
+@import url("/css/switzer.css");
 
 :root {
   --light: #d9cead;
@@ -20,6 +20,7 @@ a {
 
 html {
   font-family: "Switzer-Variable", sans-serif;
+  font-family: "ClashDisplay-Variable", sans-serif;
 }
 
 body {
