@@ -884,7 +884,7 @@ footer form {
     left: 0;
     height: 100vh;
     width: 100vw;
-    background-color: var(--dark);
+    background-image: linear-gradient(to bottom, var(--dark), var(--light));
   }
 
   .active .menu-list {
