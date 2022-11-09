@@ -131,6 +131,7 @@ nav {
 }
 
 .description-text p {
+  margin: 0 10px 0 10px;
   font-size: 20px;
   line-height: 28px;
   color: var(--dark);
@@ -459,9 +460,18 @@ footer form {
 }
 
 #contact-form textarea:placeholder-shown {
-  font-family: Inter, sans-serif;
+  font-family: "Switzer-Variable", sans-serif;
   font-size: 15px;
   line-height: 24px;
+}
+
+#contact-form ul li textarea {
+  font-family: "Switzer", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
 }
 
 #contact-form .submit-button {
@@ -630,7 +640,7 @@ footer form {
 
   .description-text p {
     max-width: 500px;
-    margin: 0;
+    margin: 0 10px 0 10px;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -813,7 +823,17 @@ footer form {
     text-align: left;
   }
 
+  #contact-form ul li textarea {
+    font-family: "Switzer", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
+
   #contact-form textarea:placeholder-shown {
+    font-family: "Switzer-Variable", sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
@@ -927,7 +947,7 @@ footer form {
 
 /* Modal styling */
 .modal {
-  margin: 10px 24px;
+  margin: 0;
   padding: 24px;
   border: 1px solid #fff;
   background: rgba(255, 255, 255, 0.16);
