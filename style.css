@@ -682,7 +682,8 @@ footer form {
   }
 
   .feature-container ul li p {
-    font-size: 13px;
+    font-family: Switzer, sans-serif;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
