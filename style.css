@@ -682,7 +682,8 @@ footer form {
   }
 
   .feature-container ul li p {
-    font-size: 13px;
+    font-family: Switzer, sans-serif;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
@@ -758,7 +759,9 @@ footer form {
     padding-left: 24px;
   }
 
-  #portfolio-works .portfolio-post:nth-child(even) .portfolio-description-section {
+  #portfolio-works
+    .portfolio-post:nth-child(even)
+    .portfolio-description-section {
     padding-left: 0;
     padding-right: 24px;
   }
