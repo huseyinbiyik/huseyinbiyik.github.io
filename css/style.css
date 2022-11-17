@@ -954,7 +954,7 @@ footer form {
   border: 1px solid #fff;
   background: rgba(255, 255, 255, 0.16);
   box-shadow: 0 48px 48px 0 rgba(37, 47, 137, 0.08);
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(100px);
   text-align: center;
 }
 
