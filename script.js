@@ -184,7 +184,7 @@ ${worksArray[element.id].portfolio_title}
 
     document.body.appendChild(dialogBox);
     dialogBox.showModal();
-    // modal close
+    // modal close with cancel icon
     const modelCloseButtons = document.querySelectorAll('.modal-close');
     modelCloseButtons.forEach((el) => {
       el.addEventListener('click', () => {
@@ -192,6 +192,13 @@ ${worksArray[element.id].portfolio_title}
       });
     });
   });
+});
+
+// modal close when clicking outside of the modal
+window.addEventListener('click', (e) => {
+  if (e.target.tagName === 'DIALOG') {
+    e.target.close();
+  }
 });
 
 // form validation
