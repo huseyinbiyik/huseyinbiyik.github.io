@@ -177,8 +177,8 @@ nav {
   line-height: 24px;
   color: var(--accent);
   padding-left: 0;
-  margin-bottom: 25px;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .feature-container ul {
@@ -194,19 +194,6 @@ nav {
 
 .last-child {
   margin-bottom: 0;
-}
-
-.feature-container p {
-  font-size: 15px;
-  line-height: 24px;
-  color: var(--dark);
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.feature-icon {
-  margin-top: 41px;
-  margin-bottom: 58px;
 }
 
 .social-media-container {
@@ -745,7 +732,9 @@ footer form {
     padding-left: 24px;
   }
 
-  #portfolio-works .portfolio-post:nth-child(even) .portfolio-description-section {
+  #portfolio-works
+    .portfolio-post:nth-child(even)
+    .portfolio-description-section {
     padding-left: 0;
     padding-right: 24px;
   }
