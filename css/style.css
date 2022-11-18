@@ -658,27 +658,13 @@ footer form {
   .flex-container {
     max-width: 446px;
     flex-wrap: nowrap;
-    gap: 24px;
-  }
-
-  .feature-container {
-    width: 123px;
-    text-align: left;
+    gap: 50px;
   }
 
   .feature-container h3 {
     font-family: "ClashDisplay-Variable", sans-serif;
-    margin: 5.33px 8px 24.5px;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 29px;
-    text-align: left;
-  }
-
-  .personel-feature-container .feature-container ul li {
-    margin-left: 7.17px;
-    min-width: 123px;
   }
 
   .feature-container ul li p {
