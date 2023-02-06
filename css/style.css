@@ -732,9 +732,7 @@ footer form {
     padding-left: 24px;
   }
 
-  #portfolio-works
-    .portfolio-post:nth-child(even)
-    .portfolio-description-section {
+  #portfolio-works .portfolio-post:nth-child(even) .portfolio-description-section {
     padding-left: 0;
     padding-right: 24px;
   }
@@ -929,7 +927,6 @@ footer form {
   box-shadow: 0 48px 48px 0 rgba(37, 47, 137, 0.08);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-
   text-align: center;
 }
 
