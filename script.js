@@ -21,6 +21,20 @@ for (let i = 0; i < navLinks.length; i += 1) {
 // objects
 const worksArray = [
   {
+    portfolio_image: 'assets/suiteup.png',
+    portfolio_title: 'SuiteUp',
+    portfolio_description:
+      'SuiteUp is a project that simulates a hotel room booking system. It allows users to add, delete, book a room. API was built with Ruby on Rails and the front-end with React.js',
+    tech_tag1: 'Ruby on Rails',
+    tech_tag2: 'Ruby',
+    tech_tag3: 'PostgreSQL',
+    tech_tag4: 'Bootstrap',
+    button_text: 'See Project',
+    // modal data
+    live_link: 'https://hotel-room-frontend-lfv20xmh2-felixodette.vercel.app/',
+    github_source: 'https://github.com/kamzzy/Hotel-Roomi',
+  },
+  {
     portfolio_image: 'assets/moneye.png',
     portfolio_title: 'Moneye',
     portfolio_description:
