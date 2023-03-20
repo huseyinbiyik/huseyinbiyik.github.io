@@ -21,6 +21,20 @@ for (let i = 0; i < navLinks.length; i += 1) {
 // objects
 const worksArray = [
   {
+    portfolio_image: "assets/vegan-harita.png",
+    portfolio_title: "Vegan Harita",
+    portfolio_description:
+      "Vegan Harita is a map of vegan places in Turkey. Users can search for the places for easy access, see the places around them, and check their menus, photos, and all the information they need. It is a part and the first feature of a super app, which is aimed to solve the problems of vegans in Turkey. The app is currently in development.",
+    tech_tag1: "Rails",
+    tech_tag2: "Ruby",
+    tech_tag3: "PostgreSQL",
+    tech_tag4: "Hotwire",
+    button_text: "See Project",
+    // modal data
+    live_link: "https://veganharita.com",
+    github_source: "https://github.com/huseyinbiyik/vegan-harita",
+  },
+  {
     portfolio_image: "assets/suiteup.png",
     portfolio_title: "SuiteUp",
     portfolio_description:
@@ -33,20 +47,6 @@ const worksArray = [
     // modal data
     live_link: "https://hotel-room-frontend-lfv20xmh2-felixodette.vercel.app/",
     github_source: "https://github.com/kamzzy/Hotel-Roomi",
-  },
-  {
-    portfolio_image: "assets/moneye.png",
-    portfolio_title: "Moneye",
-    portfolio_description:
-      "A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
-    tech_tag1: "Rails",
-    tech_tag2: "Ruby",
-    tech_tag3: "PostgreSQL",
-    tech_tag4: "CSS",
-    button_text: "See Project",
-    // modal data
-    live_link: "https://moneye-app.herokuapp.com/",
-    github_source: "https://github.com/huseyinbiyik/moneye",
   },
   {
     portfolio_image: "assets/holidays-worldwide.png",
