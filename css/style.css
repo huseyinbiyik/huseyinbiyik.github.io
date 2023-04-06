@@ -129,6 +129,9 @@ nav {
 .description-text {
   margin-top: 30px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .description-text p {
@@ -139,11 +142,28 @@ nav {
   font-family: "Switzer-Variable", sans-serif;
 }
 
+#resume-button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  background-color: var(--accent);
+  color: var(--light);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
 .main-separator {
   margin-left: 24px;
   margin-right: 24px;
   margin-top: 33px;
-  margin-bottom: 0;
+  margin-bottom: 30px;
   height: 1px;
   background-color: var(--dark);
   border-width: 0;
