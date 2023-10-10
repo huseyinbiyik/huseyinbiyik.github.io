@@ -46,7 +46,7 @@ const worksArray = [
     button_text: 'See Project',
     // modal data
     live_link: 'https://hotel-room-frontend-lfv20xmh2-felixodette.vercel.app/',
-    github_source: 'https://github.com/kamzzy/Hotel-Roomi',
+    github_source: 'https://github.com/felixodette/hotel-room-frontend',
   },
   {
     portfolio_image: 'assets/holidays-worldwide.png',
